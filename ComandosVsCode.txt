@@ -1,0 +1,104 @@
+Comandos Visual Studio Code:
+
+Layout: Barra de atividades
+            Barra lateral
+            Paleta de Comando
+            Editor
+            Barra de Status
+
+ctrl+shift+P = Abre a paleta de comandos (acesso total ao vsc)
+ctrl+P = Em tela cheia, aparece um explorer/barra, para abrir arquivos.
+             Se usar ctrl+enter abrirá em um editor separado.
+Obs: A diferença entre as duas acima é apenas o '>'.
+Pesquisa no <ctrl+P> em arquivos: '@' - Mostra os conteúdos do arquivo para pesquisar.
+                                                           '@: Divide em categorias: Ex: @:div - faz um filtro só para as div´s.
+no ctrl+P, a '?' pergunta o que vc quer fazer. 
+ctrl+shift+P =  Mostra todos os comandos
+ctrl+shift+E = Abre o explorador de arquivos na barra de atividades
+ctrl+ , = Settings(Json)
+ctrl+shift+X = Extensões
+ctrl+ ' ou ctrl+J = Console/terminal git
+ctrl+O = Abre arquivo
+ctrl+K ctrl+O = Abre pasta
+ctrl+R = Abre recente
+ctrl+W = fecha as janelas de edição uma a uma.
+ctrl+enter = abre arquivo em janelas separadas 
+ctrl+B = fecha a barra lateral
+ctrl+shift+M = Êrros da barra de status
+F11 = Tela cheia
+ctrl+K Z = Tela cheia modo zen (cheia total).
+ctrl +1 ou +2 ou +3 ou +4 etc... alterna entre as várias telas de edições abertas.
+ctrl+= Aumenta fonte
+ctrl+- Diminui fonte
+
+Multiplos cursores:
+Ctrl+Shift+L - Seleciona todas as ocorrências de uma vêz, do que está selecionado.
+Ctrl+Alt+D - Vai levando os cursores para as novas ocorrências do que está selecionado.
+                   Se quizer pular uma ocorrência destas acima, usa Ctrl+K.
+Ctrl+F2 - Seleciona todas as ocorrências da palavra selecionada.
+Ctrl+Shift e seta pra esquerda/direita, para selecionar.
+Ctrl+Click - Coloca os cursores no começa das linhas desejadas.
+Ctrl+L - Seleciona a corrente linha.
+Ctrl+C e Ctrl+V - Funcionam normal.
+end - vai pro final das linhas selecionadas.
+
+Criar snippets:
+ctrl+shift+P = Abre a paleta de comandos
+user e
+Configure user snippets
+
+go to definition (F12 ou botão direiro) - Leva você até a definição/declaração da função/método/atributo/variável.
+peek definition (Alt+F12 ou botão direito) - Abre uma janela por cima com a mesma definição/declaração, mas
+                      você continua no mesmo local que estava.
+
+Copiar a linha inteira:
+Ctrl+d ou
+Alt+Shift+seta pra baixo/seta pra cima.
+
+Mover um texto de lugar, no código:
+Seleciona todo o texto desejado, aperta Alt e leva para o outro lugar, ou com o
+mouse ou, depois de selecionado, segura o Alt e leva o texto com seta pra cima ou pra 
+baixo, para o lugar desejado.
+
+Emmet:
+Para iniciar em um novo arquivo html: 'exclamação(!)' ou 'html:5'.
+Sinal de '>': A tag da direita fica dentro da tag da esquerda.(Ex: div>ul>li)
+Sinal de '+': AS tags ficarão dentro do mesmo nivel hierárquico.(Ex: div>p+h2)
+
+Identar código: Alt+Shift+F
+
+Desligar/ligar os minimaps:
+Ctrl+, - editor.minimap.enabled
+
+Na paleta de Comandos:
+Color theme - Tema de cores
+Material icons - iconezinhos na barra lateral
+vscode -  iconezinhos na barra lateral
+lan - altera a linguagem
+sett - configurações
+
+O fira code mexe nas "ligações" dos simbolos lógicos (ex: ==> ===  != vira outro)
+Baixado do git hub.
+
+Para abrir com linha de comando:
+code - abre o vsc
+code . - abre vsc no workspace/pasta no qual está localizado
+code pasta/nome-do-arquivo -r - abre com este arquivo na última instância
+code pasta/nome-do-arquivo -n - abre com este arquivo em uma nova instância
+code -g pasta/subpasta/nome-do-arquivo:10:8 (linha e coluna) - Abre o arquivo nesta linha e coluna. 
+
+
+Preview on Web Server - vscode-preview-server:
+
+ This extension provide preview of HTML which execute on web server. When you save files,
+ this extension automatically reload browser or side panel (live preview feature). 
+ You can call these features from the context menu or editor menu. The main features are as follows
+ -Preview on side panel (ctrl+shift+v): Open preview of HTML on side panel. With this feature, 
+  you can easely check the operation of HTML, CSS and JavaScript.
+ -Launch on browser (ctrl+shift+l): Open Web Page on default browser. 
+  You can check all operation with web page.
+ -Stop the web server (ctrl+shift+s): Stop the web server.
+  This feature can be used only from command palette.
+ -Resume the web server (ctrl+shift+r): Resume the web server.
+  This feature can be used only from command palette.
+ -show UI Page (ctrl+shift+u): Show UI Page. You can change options at UI page.

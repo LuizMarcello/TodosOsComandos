@@ -1,0 +1,557 @@
+usuário criado: luizmarcellocsharp@outlook.com
+dificilP@ssw0rd
+
+acrobat reader: ctrl+h, ctrl+l, f9
+
+tamanho da fonte: ctrl + scroll
+
+ctrl + f5 - Rodar o programa.
+
+Indentação automática: CTRL + K + D
+
+duplicar linha: ctrl + D
+
+Como fechar e reabrir o projeto?
+• Abra o arquivo .sln
+
+• Ferramentas -> Opções -> Ambiente -> Configurações Internacionais -> Idioma
+• Tools -> Options -> Environment -> International Settings -> Language
+
+Quebra de linha nas chaves: Tools -> Options -> Text Editor -> C# ->
+Code Estiling -> Formatting -> New Lines
+
+Arquivo -> Novo -> Projeto -> Aplicativo de Console (.NET Core)
+• File -> New -> Project -> Console App (.NET Core)
+
+• Solution Explorer
+• Solution -> aplicação
+• Project -> assembly
+
+Placeholders, concatenação e interpolação
+Demo:
+int idade = 32;
+double saldo = 10.35784;
+String nome = "Maria";
+
+Placeholder:
+Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F2} reais", nome, idade, saldo);
+
+Interpolação:
+Console.WriteLine($"{nome} tem {idade} anos e tem saldo igual a {saldo:F2} reais");
+
+Concatenação:
+Console.WriteLine(nome + " tem " + idade + " anos e tem saldo igual a "
++ saldo.ToString("F2", CultureInfo.InvariantCulture) + " reais");
+
+Estrutura condicional
+
+Simples:
+if ( condição ) {
+comando 1
+comando 2
+}
+--------------------------------------------
+Composta:
+if ( condição ) {
+comando 1
+comando 2
+}
+else {
+comando 3
+comando 4
+}
+--------------------------------------------
+Encadeamentos:
+if ( condição 1 ) {
+comando 1
+comando 2
+}
+else if ( condição 2 ) {
+comando 3
+comando 4
+}
+else if ( condição 3 ) {
+comando 5
+comando 6
+}
+else {
+comando 7
+comando 8
+}
+-------------------------------------------
+Nota: se o bloco de comandos possuir apenas
+um comando, as chaves são opcionais.
+-------------------------------------------
+
+Uma variável pode ser:
+declarada(criada)
+inicializada(atribuido um valor).
+
+Debugging com Visual Studio:
+• Teclas
+• F9 - marcar/desmarcar breakpoint
+• F5 - iniciar/continuar o debug
+• F10 - executar um passo (pula função)
+• F11 - executar um passo (entra na função)
+• SHIFT+F11 - sair do método em execução
+• SHIFT+F5 - parar debug
+
+• Janelas
+• Watch (expressões personalizadas)
+• Autos (expressões "interessantes" detectadas pelo Visual Studio)
+• Locals (variáveis locais)
+
+Nas classes, variáveis viram 'atributos' e funções viram 'métodos'.
+
+Uma classe que possui somente membros estáticos, pode ser uma classe
+estática também. Esta classe estática não poderá ser instanciada.
+
+Em uma mesma classe, de dentro de uma função/método estático,
+não se pode chamar outra função/método que não seja tbém estático,
+sómente estático. Exemplo, chamar outra função/método de dentro do
+método 'static void main' principal.
+
+• Toda classe em C# é uma subclasse da classe Object
+• Object possui os seguintes métodos:
+• GetType - retorna o tipo do objeto
+• Equals - compara se o objeto é igual a outro
+• GetHashCode - retorna um código hash do objeto
+• ToString - converte o objeto para string
+
+Ordem sugerida para implementação de membros:
+• Atributos privados
+• Properties autoimplementadas
+• Construtores
+• Properties customizadas(Properties normais)
+• Outros métodos da classe
+
+Vetores "tipo struct/tipo valor", e vetores "tipo referência(tipo classes)":
+tipo struct: Instancia o vetor normalmente.
+tipo referência: Instancia o vetor normalmente e depois instancia
+                 cada um dos objetos, para inserir dados neles.
+
+Modificador de parâmetros 'params'.
+Avisa o compilador que a função receberá uma quantia 'variável' de valores.
+Outros modificadores de parâmetros: 'ref' e 'out'.
+
+Boxing
+• É o processo de conversão de um objeto tipo valor para um objeto
+tipo referência compatível
+
+Unboxing
+• É o processo de conversão de um objeto tipo referência para um
+objeto tipo valor compatível
+
+Laço for each:
+Sintaxe opcional e simplificada para percorrer coleções
+
+---------------------------------------------------------------------------------
+Declarando(criando) um vetor, e já instanciando o mesmo:
+Tamanho fixo, já tem que definir o tamanho:
+double[] vect = new double[3];
+
+Obs: Declarando o vetor 'vect' tipo string, e já iniciando ele.
+string[] vect = new string[] { "Maria", "Bob", "Alex"};
+
+Leitura: "para cada objeto 'obj' contido em 'vect', faça o seguinte:"
+foreach (string obj in vect) {
+Console.WriteLine(obj);
+}
+---------------------------------------------------------------------------------
+Listas:
+• Lista é uma estrutura de dados:
+• Homogênea (dados do mesmo tipo)
+• Ordenada (elementos acessados por meio de posições)
+• Inicia vazia, e seus elementos são alocados sob demanda
+• Cada elemento ocupa um "nó" (ou nodo) da lista 
+
+• Classe: List
+• Namespace: System.Collections.Generic
+
+• Vantagens:
+• Tamanho variável
+• Facilidade para se realizar inserções e deleções
+• Desvantagens:
+• Acesso sequencial aos elementos *
+
+Criando(declarando) e instanciando uma 'lista':
+O c# permite que seja instanciada vazia.
+List<string> list = new List<string>();
+
+O c# permite também criar(declarar), instanciar e
+iniciar(colocar elementos) num comando só:
+List<string> list = new List<string> {"Maria", "Jose", "Luiz"};
+---------------------------------------------------------------------------------
+Conjunto:
+Declarando(criando) e instanciando um 'conjunto':
+O c# permite que seja instanciado vazio.
+HashSet<int> conj = new HashSet<int>();
+
+---------------------------------------------------------------------------------
+Matrizes:
+Declarando(criando) e instanciando uma matriz 2x3:
+Quando as linhas e colunas são iguais, se diz "de ordem 3", por exemplo.
+Tamanho fixo, já tem que definir o tamanho:
+double[,] mat = new double[2, 3];
+---------------------------------------------------------------------------------
+VERSIONAMENTO GIT:
+
+Para criar um arquivo .gitignote do git, na pasta de um projeto novo, cria
+um arquivo qualquer .txt e depois segura a tecla <shift>, vai aparecer o menu
+pop-up, e escolher para abrir o prompt de comando do power shell, e dentro
+usar o 'ren' para renomear o .txt para .gitignote
+Para saber quais arquivos a serem incluidos neste arquivo, para não serem
+versionados, pesquisar no google assim: 'gitignore visual studio 2019':
+https://github.com/github/gitignore/blob/master/VisualStudio.gitignore.
+
+git init - Para começar o versionamento na pasta do novo projeto.
+
+git config --global user.name "LuizMarcello" - identificar usuário 
+git config --global user.email "luizmarcello.vmo@hotmail.com" - identificar e-mail
+
+git status - o status do projeto no git.
+             vermelhos: não rastreados(untracked)
+             verdes: prontos para serem comitados(stage area).
+
+git add . - coloca todos area de 'stage'(Pronto para o commit).
+
+git commit -m "descrição do commit"
+
+git log - Informações diversas do commit
+git log --oneline - forma resumida
+
+Se forem alterados arquivos do projeto, usar novamente 'git add .'(stage)
+e 'git commit -m "descrição do commit"'.
+
+Se esquecer de colocar a descrição no commit, e entrar no editor 'vim',
+para sair dele: Apertar <esc> e digitar:  :q!
+
+Cancelar alterações no código, e voltar ao estado do último commit anterior:
+git clean -df
+git checkout -- .
+
+Remover o último commit, mantendo as alterações nos arquivos:
+git reset --soft HEAD~1
+
+Remover o último commit, INCLUSIVE as alterações nos arquivos (PERIGO!):
+git reset --hard HEAD~1
+
+Olhar os projetos em outras versões(comando checkout):
+Navegar entre commits, alterando os arquivos(códigos) 
+temporariamente para aquele commit:
+git checkout 6346c7e - (código do commit desejado)
+
+Voltar para o último commit:
+git checkout master - (branch master, por exemplo)
+
+VERSIONAMENTO GITHUB:
+
+Visão geral do Github
+• É um serviço de armazenamento remoto de repositórios Git
+• Interface com usuário via web
+• Padrão da indústria para armazenamento de projetos de código aberto
+• Maior hospedeiro de código fonte do mundo
+• Planos pagos para repositórios privados
+• É uma "rede social" de repositórios Git. Dica: currículo!
+
+'Associando' um repositório remoto ao seu repositório local:
+1)'Associar' nosso repositório local ao repositório remoto, dando o
+apelido de "origin" a ele(comando 'remote'):
+git remote add origin <URI do repositório remoto>
+ex:
+git remote add origin https://github.com/LuizMarcello/curso-git-csharp.git
+
+2)'Associar' o repositório local a um outro repositório remoto, porém
+mantendo o mesmo apelido:
+git remote set-url origin <URI do repositório remoto>
+
+'Enviar' o repositório local para o Github(comando 'push'):
+git push -u origin master
+
+Nota: se você usou a opção -u, nas próximas vezes que for subir o branch master,
+basta fazer:
+git push
+
+Copiando um repositório remoto para seu computador,
+inclusive o histórico de commits:
+git clone https://github.com/LuizMarcello/curso-git-csharp.git
+
+Comando para atualizar seu repositório local:
+Sempre virificar se o repositorio local está atualizado em relação ao github:
+git pull origin master
+
+Classe 'StringBuilder':
+Responsávelpor fazer a montagem de um string de uma
+maneira muito eficiente. Resultado será na forma de um string.
+
+---------------------------------------------------------------------------------
+FRONT-END (Hugo Vasconcelos):
+
+Estrutura de tópicos de documentos(Document Outline):
+ctrl + alt + T
+Para ver a hierarquia do sistema, quem tá dentro de quem.
+Um 'painel' aceita componentes como filhos.
+
+Evento 'KeyDown': Quando uma tecla é pressionada:
+Para este evento ser 'visto' pelo formulário, é necessário,
+nas propriedades do formulário, marcar a opção 'KeyPreview'
+como true.
+
+Sempre que excluir um 'evento' qualquer, terá que excluir manualmente
+o chamador do evento, na classe 'umNome.designer.cs'.
+Opção 'ir para o código', durante o êrro.
+
+Campos da "MessageBox" personalizada:
+1)A mensagem, entre aspas
+2)O caption, o título da messageBox, entre aspas
+3)Tipo(estilo) da janela(os botões), menu pop-up
+4)Icone da Janela, menu-pop-up
+
+---------------------------------------------------------------------------------
+HERANÇA:
+
+• Sintaxe
+  • : (estende)
+  • base (referência para a superclasse)
+
+withdraw - saque
+loanLimit - Limite de empréstimo
+
+  Definições importantes:
+• Relação "é-um"
+• Generalização/especialização
+• Superclasse (classe base) / subclasse (classe
+  derivada)
+• Herança / extensão
+• Herança é uma associação entre classes (e não
+  entre objetos)
+
+holder - titular da conta
+balance - saldo da conta
+
+UPCASTING (subClasse para superClasse)(especializado para generalizado(base))
+Exemplo:
+Um objeto tipo 'BusinessAccount' é aceito por uma variável tipo 'Account'
+por causa do relacionaento 'é-um'. 'BusinessAccount' é um 'Account'.
+Account acc1 = bacc;
+
+Dando um new em um tipo da subclasse, e atribuindo essa instanciação
+para uma variável do tipo superclasse 'Account':
+Account acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
+
+DOWNCASTING (superClasse(base) para subClasse)(generalizado(base) para especializado))
+Para uma variável tipo subClasse aceitar uma variável tipo superClasse(base),
+(downcasting), tem que ser feito um cast explícito. O compilador não está
+ciente da associação da variável com qualquer super ou subClasse. Pra ele,
+o que vale, é somente a variável, a declaração dela.
+BusinessAccount acc4 = (BusinessAccount)acc2;
+
+Dá um êrro em tempo de execução, pois 'acc3' é 
+do tipo subClasse 'SavingsAccount':
+BusinessAccount acc5 = (BusinessAccount)acc3;
+
+Testando primeiro se 'acc3' é uma instância de 'BusinessAccount'
+
+
+para só depois fazer a conversão acima(usando o operador 'is'):
+            if (acc3 is BusinessAccount)
+            {
+                Duas maneiras de fazer o 'casting':
+                Assim:
+                BusinessAccount acc5 = (BusinessAccount)acc3;
+                ou assim, usando o operador 'as':
+                BusinessAccount acc5 = acc3 as BusinessAccount;
+                acc5.Loan(200.0);
+                Console.WriteLine("Loan!");
+            }
+
+            if (acc3 is SavingsAccount)
+            {
+                Duas maneiras de fazer o 'casting':
+                Assim:
+                SavingsAccount acc5 = (SavingsAccount)acc3;
+                ou assim, usando o operador 'as':
+                SavingsAccount acc5 = acc3 as SavingsAccount;
+                acc5.UpdateBalance();
+                Console.WriteLine("Update!");
+            }
+
+
+Sobreposição ou sobrescrita
+É a implementação de um método de uma superclasse na subclasse
+
+Para que um método comum (não
+abstrato) possa ser sobreposto, deve
+ser incluído nele o prefixo "virtual"
+
+Ao sobrescrever um método, devemos
+incluir nele o prefixo "override"
+
+Classes e métodos selados
+• Palavra chave: sealed
+• Classe: evita que a classe seja herdada
+• Nota: ainda é possível extender a funcionalidade de uma classe selada usando
+  "extension methods"
+• Método: evita que um método sobreposto possa ser sobreposto novamente
+• Só pode ser aplicado a métodos sobrepostos
+
+POLIMORFISMO:
+
+Pilares da OOP(Programação orientada a objetos)
+• Encapsulamento
+• Herança
+• Polimorfismo
+
+  Classes abstratas
+• São classes que não podem ser instanciadas.
+  Mesmo a classe sendo abstrata, ela pode seu usada como 'tipo'
+  em uma lista, por exemplo.
+  São para garantir a 'herança total', ou seja, só será possível
+  instanciar objetos dos tipos das subclasses desta, e não
+  da superclasse abstrata.
+
+  Métodos abstratos
+• São métodos que não possuem implementação.
+• Métodos precisam ser abstratos quando a classe
+  é genérica demais para conter sua
+  implementação.
+• Se uma classe possuir pelo menos um método
+  abstrato, então esta classe também é abstrata.
+• Notação UML: itálico
+
+--------------------------------------------------------------------------------------------
+EXCEÇÔES:
+
+catch = capturar
+
+Dominio, é um termo técnico usado em análise de sistemas, para referenciar
+o "negócio" do sistema. Por exemplo: O dominio pode ser sobre reservas em
+hotéis, etc...
+
+holder - titular da conta
+balance - saldo da conta
+withdraw - saque
+loanLimit - Limite de empréstimo
+withdrawLimit - Limite de saque
+
+---------------------------------------------------------------------------------------------
+ARQUIVOS/FILES:
+
+O '@'(arroba) no caminho(path) de um arquivo é para não precisar
+colocar duas barras para representar a barra entre o caminho do arquivo.
+
+IOException é o pai de todas as exceções, tratando-se de arquivos.
+
+A Inferência de tipo permite que você deixe o compilador decidir qual o tipo de uma variável local .(não pode ser utilizada para campos de classes).
+
+Na linguagem C# a inferência de tipo usa a palavra reservada var.
+
+A palavra-chave var instrui o compilador para deduzir o tipo da variável da expressão no lado direito da instrução de inicialização.
+
+O tipo inferido pode ser um tipo interno, um tipo anônimo, um tipo definido pelo usuário ou um tipo definido na biblioteca de classes do NET Framework.
+
+--------------------------------------------------------------------------------------------
+INTERFACES:
+
+Exemplo de uma 'propriedade calculada', do cSharp:
+
+        public double TotalPayment
+        {
+            get { return BasicPayment + Tax;  }
+        }
+
+
+//Fazendo uma dependência desta classe com a interface ITaxService(ou não ?)
+  private ITaxService _taxService;
+
+     //Neste 3º parâmetro, poderá ser um objeto de qualquer classe que implemente a interface 'ITaxService'.
+     public RentalService(double pricePerHour, double pricePerDay, ITaxService taxService)
+        {
+            PricePerHour = pricePerHour;
+            PricePerDay = pricePerDay;
+            //Isso é uma inversão de controle por meio de injeção de dependência.
+            //Agora deverá ser utilizada somente esta "abstração" da interface "ITaxService",
+            //para não ter mais um "acoplamento direto" com ela:
+            _taxService = taxService;
+
+installments = parcelas
+fee = taxa
+payment fee = taxa de pagamento
+interest = juros
+simple interest = jutos simples
+
+RESUMO:
+As sub-classes 'herdam' das superclasses mãe.
+As classes concretas 'implementam'(cumprem contrato) com as interfaces.
+
+Aspectos em comum entre herança e interfaces
+• Relação é-um
+• Generalização/especialização
+• Polimorfismo
+
+Diferença fundamental
+• Herança => reuso
+• Interface => contrato a ser cumprido
+   }
+
+-----------------------------------------------------------------------------------------------------------
+LINQ - Language Integrated Query
+• É um conjunto de tecnologias baseadas na integração de funcionalidades de
+  consulta diretamente na linguagem C#
+• Operações chamadas diretamente a partir das coleções
+• Consultas são objetos de primeira classe
+• Suporte do compilador e IntelliSense da IDE
+• Namespace: System.Linq
+• Possui diversas operações de consulta, cujos parâmetros tipicamente são
+  expressões lambda ou expressões de sintaxe similar à SQL
+
+Três passos
+• Criar um data source (coleção, array, recurso de E/S, etc.)
+• Definir a query
+• Executar a query (foreach ou alguma operação terminal)
+  Datasource Query Execution
+  
+  Demo
+// Specify the data source.
+  int[] numbers = new int[] { 2, 3, 4, 5 };
+// Define the query expression.
+  IEnumerable<int> result = numbers
+  .Where(x => x % 2 == 0)
+  .Select(x => 10 * x);
+// Execute the query.
+  foreach (int x in result) {
+  Console.WriteLine(x);
+  }
+
+ //O 'IEnumerable' é uma coleção mais 'genérica'.
+ //O resultado fica mais genérico.
+ //Ele é compatível com as principais operações de coleção.
+
+  Resumo da aula - linq com Lambda:
+• Where (operação "filter" / "restrição")
+• Select (operação "map" / "projeção")
+• OrderBy, OrderByDescending, ThenBy, ThenByDescending
+• Skip, Take
+• First, FirstOrDefault Last, LastOrDefault, Single, SingleOrDefault
+• Max, Min, Count, Sum, Average, Aggregate (operação "reduce")
+• GroupBy
+
+----------------------------------------------------------------------------------------------------------
+MySql:
+
+'Migration': É um script específico para gerar e versionar a base de dados.
+
+Existem 2 workflows para se trabalhar com "migrations" em MySql:
+1º)CODE-FIRST workflow: Escreve-se as classes na linguagem orientada a objetos,
+   e a partir destas é que são gerados os banco de dados.
+
+2º)DATA-BASE-FIRST workflow: Quando se cria primeiramente o banco de dados no MySql,
+   e a partir desse banco de dados gera as classes, na linguagem orientada a ojetos.
+
+O 'Pomelo.EntityFrameworkCore.MySql' é o 'provider' do 'MySql(Oracle)' para o EntityFramework.
+Cada banco de dados específico tem que ter seu provider para o EntityFramework.
+
+As tags <th> são colunas do cabeçalho (head)
+As tags <td> são colunas do corpo (body)
+
+Tela cheia: Alt+Shift+Enter

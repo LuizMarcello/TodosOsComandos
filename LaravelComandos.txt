@@ -1,0 +1,96 @@
+Novo projeto:
+Cria uma pasta do projeto(com o nome do projeto)
+composer create-project --prefer-dist laravel/laravel nome-do-projeto
+
+Start no servidor web interno do artisan e abre uma porta no localhost(porta 8000):
+http://127.0.0.1/8000:
+ctrl+C (stop este servidor):
+php artisan serve
+
+Versão do framework Laravel:
+php artisan -V
+
+Comandos da ferramenta artisan:
+php artisan
+php artisan list
+
+Consultar sobre um comando:
+php artisan help 'nome-do-comando'
+
+Gerar uma nova chave de criptografia para esta aplicação
+php artisan key:generate
+
+Criar um novo controler:
+php artisan make:controller ContatoController
+
+Nas views(xxx.blade.php):
+{{ $variaveis }} Usar variáveis php dentro do html
+Começando com "@" são funções do blade, dentro do php
+@end + "nome-da-função" - para fechar
+
+Blade é um sistema de templates do laravel, para facilitar.
+
+Criando um novo model:
+-m já faz a migration(uma tabela no banco de dados):
+php artisan make:model Contato -m
+
+Criando uma migration e uma nova tabela chamada "produtos":
+php artisan make:migration create_produtos_table --create=produtos
+
+Migration para acrescentar um atributo para a tabela especificada
+php artisan make:migration add_votes_to_produtos_table --table=produtos
+
+Rodar todas as migrations(tabelas) pendentes:
+php artisan migrate
+
+Reseta/rollback/apaga todas as tabelas:
+php artisan migrate:reset
+
+Para acessar o banco de dados(eloquent):
+Orientação a objetos no prompt:
+php artisan tinker
+$contato = new App\Contato();
+App\Contato::all();
+$contato->nome = "Guilherme";
+$contato->telefone = "900203883";
+$contato->email = "luizmarcello.vmo@hotmail.com";
+$contato->save();
+App\Contato::all();
+Para deletar um usuario:
+$con = App\Contato::find(id);
+$con->delete();
+
+Ciclo para criar um crud no laravel:
+Cria o modelo solicitando a migration
+php artisan make:model Curso -m
+
+Configura a migration e depois faz a migration:
+php artisan migrate
+
+Depois define os controlers:
+php artisan make:controller Admin\CursoController
+
+Depois as rotas:
+No arquivo routes\web.php
+
+Depois define as views(html):
+Configuração dos "Controllers" junto com as configurações das "views"
+
+Nas view(xxx.blade.php):
+Exemplo usando o "helper de rotas "route":
+<form class="" action="{{route('admin.cursos.salvar')}}" method="post">
+
+Nas view(xxx.blade.php):
+Colocando um token:
+{{ csrf_field() }}
+
+Roda todas as seeders criadas:
+php artisan db:seed
+
+Roda apenas a seed especificada na class:
+php artisan db:seed --class=UsuarioSeeder
+
+Ativar o sistema de login do laravel:
+php artisan make:auth
+
+

@@ -1,0 +1,118 @@
+Comandos mikrotik:
+
+=================================================================================
+Configurações Básicas via terminal:
+
+ip address add address=192.168.1.98/24 
+
+> ip
+/ip> address 
+/ip address> add 
+address: 192.168..
+
+> ip address add address=192.168.1.98/24 disabled=no interface=WAN
+
+> ip route add dst-address=0.0.0.0/0 gateway=WAN 
+
+> ip dns set servers=8.8.8.8
+
+> ip address print
+> ip route print
+> ip dns print
+
+> ip dhcp-client add interface=WAN disabled=no
+> ip dhcp-client print 
+
+=================================================================================
+Configurações de Segurança Básica via terminal
+
+/user set [find name=admin] password=123456
+
+/user set admin address=192.168.0.0/24
+
+/interface print
+
+/interface set [find name=ether4] disabled=yes
+
+/interface print
+
+/ip service print
+
+/ip service set [find name=telnet] disabled=yes
+
+/ip service print
+
+/tool mac-server print
+
+/tool mac-server set allowed-interface-list=none
+
+/tool mac-server print
+
+/tool mac-server mac-winbox print
+
+/tool mac-server mac-winbox set [find interface=all] disabled=yes
+
+/tool mac-server ping print
+
+/tool mac-server ping set enabled=no
+
+/tool mac-server ping print
+
+/ip neighbor discovery-settings
+
+/interface bonding
+	add name=bond1 slaves=ether4,ether5
+
+/interface list
+	add name=only-ether5
+
+/interface list member
+add interface=ether5 list=only-ether5
+
+/ip neighbor discovery-settings
+set discover-interface-list=only-ether5
+
+/ip ssh print
+
+/ip ssh set strong-crypto=yes
+
+/ip ssh print
+
+/ip settings print
+
+/ip settings set rp-filter=strict
+
+/ip settings print
+
+/ip socks print
+
+/ip socks set enabled=no
+
+/ip dns print
+
+/ip dns set allow-remote-requests=no
+
+/system package update check-for-updates
+
+/system package update install
+
+/system routerboard print
+
+/system routerboard upgrade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
