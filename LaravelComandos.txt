@@ -2,6 +2,8 @@ Novo projeto:
 Cria uma pasta do projeto(com o nome do projeto)
 composer create-project --prefer-dist laravel/laravel nome-do-projeto
 
+rm -rf nomeDoDiretorio (apaga mesmo com dados)
+
 Start no servidor web interno do artisan e abre uma porta no localhost(porta 8000):
 http://127.0.0.1/8000:
 ctrl+C (stop este servidor):
