@@ -12,7 +12,7 @@ php artisan serve
 Versão do framework Laravel:
 php artisan -V
 
-Comandos da ferramenta artisan:
+Comandos da ferramenta artisan(assistente de console):
 php artisan
 php artisan list
 
