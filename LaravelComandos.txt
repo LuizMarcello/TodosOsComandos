@@ -15,6 +15,7 @@ php artisan -V
 Comandos da ferramenta artisan(assistente de console):
 php artisan
 php artisan list
+php artisan help
 
 Consultar sobre um comando:
 php artisan help 'nome-do-comando'
