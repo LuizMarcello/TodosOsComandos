@@ -35,6 +35,7 @@ Blade é um sistema de templates do laravel, para facilitar.
 
 Criando um novo model:
 -m já faz a migration(uma tabela nova no banco de dados):
+(Essa tabela será no plural, no caso, "Contatos")
 php artisan make:model Contato -m
 
 Criando uma migration e uma nova tabela chamada "produtos":
