@@ -34,7 +34,7 @@ Começando com "@" são funções do blade, dentro do php
 Blade é um sistema de templates do laravel, para facilitar.
 
 Criando um novo model:
--m já faz a migration(uma tabela no banco de dados):
+-m já faz a migration(uma tabela nova no banco de dados):
 php artisan make:model Contato -m
 
 Criando uma migration e uma nova tabela chamada "produtos":
