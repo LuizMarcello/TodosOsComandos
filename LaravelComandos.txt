@@ -38,6 +38,8 @@ Criando um novo model:
 (Essa tabela será no plural, no caso, "Contatos")
 php artisan make:model Contato -m
 
+Migration: Versionamento do banco de dados.
+           Modela o banco de dados usando o PHP.
 Criando uma migration e uma nova tabela chamada "produtos":
 php artisan make:migration create_produtos_table --create=produtos
 
