@@ -83,7 +83,11 @@ Depois define as views(html):
 Configuração dos "Controllers" junto com as configurações das "views"
 
 Nas view(xxx.blade.php):
-Exemplo usando o "helper de rotas "route":
+Exemplo usando o "helper de imagens asset()":
+Localiza automaticamente a pasta de imagens do projeto(caminho da pasta public)
+<td><img width="90" src="{{asset($registro->imagem)}}" alt="{{ $registros->titulo }"></td>
+
+Exemplo usando o "helper de rotas "route()":
 <form class="" action="{{route('admin.cursos.salvar')}}" method="post">
 
 Nas view(xxx.blade.php):
