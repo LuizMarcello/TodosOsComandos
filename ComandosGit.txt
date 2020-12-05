@@ -279,8 +279,9 @@ Obs: Atualizar o repositorio local com as informações que
      Se houver conflito, vai constar no arquivo o qual está o conflito,
      para ser resolvido manualmente no visual studio code (editor).
      Depois salvar, git add . e commit normalmente.
-     Depois: git pull origin master ou
-             git pull origin main (branch "main")
+     Depois de resolvido o conflito, "empurrar" essas informações para o
+     servidor: git push origin master ou
+               git push origin main (branch "main")
 
 O outro projeto local vai ficar:
 git branch -M main
