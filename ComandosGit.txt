@@ -272,9 +272,15 @@ git branch -M master
 git push -u origin master
 
 Obs: Atualizar o repositorio local com as informações que
-     foram alteradas no repositorio git remoto:
+     foram alteradas no repositorio git remoto:(sem conflito)
      git pull origin master ou
-     git pull origin main
+     git pull origin main (branch "main")
+     
+     Se houver conflito, vai constar no arquivo o qual está o conflito,
+     para ser resolvido manualmente no visual studio code (editor).
+     Depois salvar, git add . e commit normalmente.
+     Depois: git pull origin master ou
+             git pull origin main (branch "main")
 
 O outro projeto local vai ficar:
 git branch -M main
