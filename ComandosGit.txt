@@ -3,62 +3,62 @@
 -git config --system - para todo mundo
 -git config --local - para este projeto do git
 -git config --global - para todos os projetos do git
--git config --global user.name - qual usu·rio, para todos os projetos.
+-git config --global user.name - qual usu√°rio, para todos os projetos.
 -git config --global user.email - qual e-mail, para todos os projetos.
--git config user.name - Configura o nome do usu·rio, para o novo projeto.
+-git config user.name - Configura o nome do usu√°rio, para o novo projeto.
 -git config user.email - Configura o e-mail para o novo projeto.
--git config --global -l - lista a configuraÁ„o
--git config --global core.editor notepad - editor para alguma configuraÁ„o
--git status - status do(s) arquivo(s), em relaÁ„o ao git.
--git add "nome do arquivo"- Adiciona na area de "stage". Ser· rastreado pelo git.
--git add . - coloca todos os arquivos na "stage" de uma sÛ vÍz.
+-git config --global -l - lista a configura√ß√£o
+-git config --global core.editor notepad - editor para alguma configura√ß√£o
+-git status - status do(s) arquivo(s), em rela√ß√£o ao git.
+-git add "nome do arquivo"- Adiciona na area de "stage". Ser√° rastreado pelo git.
+-git add . - coloca todos os arquivos na "stage" de uma s√≥ v√™z.
 -git commit -m "mensagem" - tira um snapShot do arquivo
 -git commit -m "mensagem #2" - tira um snapShot do arquivo e vincula com a issue #2
 -git commit -m "mensagem closes #2" - tira um snapShot, vincula com a issue #2 e encerra a mesma
--git commit -m "mensagem fixes #2" - tira um snapShot, vincula a correÁ„o com a issue #2
+-git commit -m "mensagem fixes #2" - tira um snapShot, vincula a corre√ß√£o com a issue #2
 -git commit -am 'mensagem que lembre algo' - coloca na stage e tira um snapshot.
--git log - Para ver o histÛrico de arquivos criados.Todos os commits realizados.
--git log --decorate --oneline - Onde est· a HEAD, em qual cgit pushommit, e mostra
+-git log - Para ver o hist√≥rico de arquivos criados.Todos os commits realizados.
+-git log --decorate --oneline - Onde est√° a HEAD, em qual cgit pushommit, e mostra
  tudo em uma unica linha. HEAD aponta para o ultimo commit.
--git checkout 'cÛdigo hash' - Mostra uma vers„o do arquivo, no commit deste hash.
- (uma branch com o nome igual ao comeÁo do cÛdigo hash).
+-git checkout 'c√≥digo hash' - Mostra uma vers√£o do arquivo, no commit deste hash.
+ (uma branch com o nome igual ao come√ßo do c√≥digo hash).
 -git checkout master - volta o arquivo para o status atual, para a branch master.
 
  Comandos github:ls
--git push - sincroniza tudo(arquivos criados/alteraÁıes).Envia do 'git' para o 'github'.                                          caixinho amarela - repositÛrio Principal(upstream)
--git push origin pagina-contato - sincroniza as branch 'master'e 'pagina-contato' com o github.                           caixinha verde - repositorio cÛpia/remoto(fork)
--git pull - Atualiza tudo do github para o nosso repositÛrio local(git).                                                                 caixinha roxa - repositÛrio local(na m·quina)
--git git "endereÁo https colado do novo repositÛrio no github" - clona o repositÛrio local com
- novo reposiÛrio no github. Agora todas as alteraÁıes ser„o sincronizadas entre eles.
+-git push - sincroniza tudo(arquivos criados/altera√ß√µes).Envia do 'git' para o 'github'.                                          caixinho amarela - reposit√≥rio Principal(upstream)
+-git push origin pagina-contato - sincroniza as branch 'master'e 'pagina-contato' com o github.                           caixinha verde - repositorio c√≥pia/remoto(fork)
+-git pull - Atualiza tudo do github para o nosso reposit√≥rio local(git).                                                                 caixinha roxa - reposit√≥rio local(na m√°quina)
+-git git "endere√ßo https colado do novo reposit√≥rio no github" - clona o reposit√≥rio local com
+ novo reposi√≥rio no github. Agora todas as altera√ß√µes ser√£o sincronizadas entre eles.
  
  Comandos branch:
--git branch nome-da-branch - Para criar uma nova branch(ramificaÁ„o).
--git branch - Para ver as branchs e em qual nÛs estamos.
+-git branch nome-da-branch - Para criar uma nova branch(ramifica√ß√£o).
+-git branch - Para ver as branchs e em qual n√≥s estamos.
 -git checkout nome-da-branch - Muda da branch master para a outra branch.
--git checkout -b nome-da-branch - cria uma nova branch e j· entra nela
+-git checkout -b nome-da-branch - cria uma nova branch e j√° entra nela
 -git checkout master - volta para a branch master.
 -git merge nova-branch - mescla esta branch com a branch master.
- tipo 'fast-forward' - JunÁ„o direta. Houve commit sÛ na 'nova-branch'(merge tranquilo).
+ tipo 'fast-forward' - Jun√ß√£o direta. Houve commit s√≥ na 'nova-branch'(merge tranquilo).
  tipo 'recursive strategy' - Houve commit na 'nova-branch' e na 'master branch'.
- Neste caso haver· um commit do merge da 'nova-branch' com a 'master'.
--git merge --abort - Cancela um merge n„o terminado. 
--git log --graph - mostra um grafico entre os commits, apÛs um merge entre as branchs.
--git log --graph --oneline - Log gr·fico mais simplificado.
+ Neste caso haver√° um commit do merge da 'nova-branch' com a 'master'.
+-git merge --abort - Cancela um merge n√£o terminado. 
+-git log --graph - mostra um grafico entre os commits, ap√≥s um merge entre as branchs.
+-git log --graph --oneline - Log gr√°fico mais simplificado.
 -git branch -d nome-da-branch - deleta uma branch local
 -git branch -D nome-da-branch - deleta uma branch local, mesmo que esteja publicada.
 -git push -d origin 'nome-da-branch' - deleta a branch remota no gitHub(no fork).
 -git branch -a: Quais branchs temos acesso no projeto. 
 ---------------------------------------------------------------------------------------------------------------------
- Simplesmente comeÁar um projeto/repositorio novo:
+ Simplesmente come√ßar um projeto/repositorio novo:
  (Acompanhando php7 curso udemy)
  Local:
--Bot„o direito na pasta local do projeto e 'git bash here'
+-Bot√£o direito na pasta local do projeto e 'git bash here'
 -git init
 -git config user.name 'nome'
 -git config user.mail 'email'
 -Cria o repositorio no git hub
--git remote add origin 'endereÁo https remoto' - Adiciona o repositÛrio principal do 
- gitphub ao repositÛrio local(na m·quina).
+-git remote add origin 'endere√ßo https remoto' - Adiciona o reposit√≥rio principal do 
+ gitphub ao reposit√≥rio local(na m√°quina).
 -*usar git pull origin master
 -trabalha normal na maquina local
 -git add .
@@ -67,31 +67,31 @@
  ou:
 -usar git push origin master
 ---------------------------------------------------------------------------------------------------------------------
-Simplesmente comeÁar um projeto/repositorio novo:
+Simplesmente come√ßar um projeto/repositorio novo:
  (Acompanhando github curso udemy)
 *Criar pasta local
 -git init
 -git config user.name 'nome'
 -git config user.mail 'email'
- *ComeÁar criando arquivos
+ *Come√ßar criando arquivos
 -git add 'arquivo'
 -git commit -m "mensagem"
  *Criar repositorio no github
--git remote add origin "endereÁo https colado do repositorio, no site"
+-git remote add origin "endere√ßo https colado do repositorio, no site"
 -git remote
 -git push -u origin master - Mandando a branch 'master' local para o repositorio remoto 'origin',
- A flag '-u' padroniza para os prÛximos push's, que para o origin, sempre vai ser da branch ''master.
- Vai ser sempre da 'master' para o 'origin'. DaÌ poder· ser simplesmente:
+ A flag '-u' padroniza para os pr√≥ximos push's, que para o origin, sempre vai ser da branch ''master.
+ Vai ser sempre da 'master' para o 'origin'. Da√≠ poder√° ser simplesmente:
  -git push  
 -Se for o caso, criar o arquivo ".gitignore".Exemplo dentro dele: /assets. Tudo dentro desta pasta,
- '/assets' n„o ser· rastreado pelo github.
+ '/assets' n√£o ser√° rastreado pelo github.
 ---------------------------------------------------------------------------------------------------------------------
 
--git config user.name - Configura o nome do usu·rio, para o novo projeto.
+-git config user.name - Configura o nome do usu√°rio, para o novo projeto.
 -git config user.email - Configura o e-mail para o novo projeto.
 
 comandos do bash:
--ls -la: lista todos os arquivos/diretorios, atÈ os ocultos.
+-ls -la: lista todos os arquivos/diretorios, at√© os ocultos.
 -gitk &: forma visual de trabalhar com o git.
 -gitk --all &: Mostrar todos os branch de forma visual
 -pwd: onde estou
@@ -99,86 +99,86 @@ comandos do bash:
 -rm -rf diretorio -git Forcar exluir diretorio
 
 -Milestones: Agregador de 'issues' a serem resolvidas, com caracteristicas especificas.
--git checkout a.txt - Descarta qualquer alteraÁ„o no arquivo, antes de coloc·r na stage(git add .).-m
--git reset head a.txt - Descarta qualquer alteraÁ„o no arquivo, mesmo j· estando na stage(git add .) 
+-git checkout a.txt - Descarta qualquer altera√ß√£o no arquivo, antes de coloc√°r na stage(git add .).-m
+-git reset head a.txt - Descarta qualquer altera√ß√£o no arquivo, mesmo j√° estando na stage(git add .) 
  Remove da stage. HEAD idica o ponto do commit onde estamos, e em qual branch.
--git reset head^ - Volta a HEAD para um passo anterior de onde a HEAD est·(um commit anterior)
--git reset head^^ - Volta a HEAD para dois passos anterior de onde a HEAD est·(dois commits anteriores).
+-git reset head^ - Volta a HEAD para um passo anterior de onde a HEAD est√°(um commit anterior)
+-git reset head^^ - Volta a HEAD para dois passos anterior de onde a HEAD est√°(dois commits anteriores).
 -git rm --cached a.txt - A partir deste momento, o git deixa de rastrear
- as alteraÁıes feitas neste arquivo.
--git reset --hard 'hash-do-commit-desejado' - Apaga tudo o que aconteceu no histÛrico
- e reseta realmente o projeto. Volta para o commit deste cÛdigo hash.
+ as altera√ß√µes feitas neste arquivo.
+-git reset --hard 'hash-do-commit-desejado' - Apaga tudo o que aconteceu no hist√≥rico
+ e reseta realmente o projeto. Volta para o commit deste c√≥digo hash.
 -git reset --hard head^ - Reseta tudo para um commit anterior.
 -git reset --hard head^^ - Reseta tudo para dois commits anteriores.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
- fork - Faz um clone de um repositÛrio publico qualquer direto para o seu repositÛrio cÛpia/remoto(fork). 
- Permite experimentar alteraÁıes no projeto que n„o poderiam ser feitas no original.
- RepositÛrios do fork:
--repositÛrio Principal(upstream).
--repositorio cÛpia/remoto(fork).
--repositÛrio local(na m·quina)
+ fork - Faz um clone de um reposit√≥rio publico qualquer direto para o seu reposit√≥rio c√≥pia/remoto(fork). 
+ Permite experimentar altera√ß√µes no projeto que n√£o poderiam ser feitas no original.
+ Reposit√≥rios do fork:
+-reposit√≥rio Principal(upstream).
+-repositorio c√≥pia/remoto(fork).
+-reposit√≥rio local(na m√°quina)
 
  Ciclos do fork:
--git clone 'endereÁo https colado do repositÛrio fork no github' 'nome-da-pasta-local-destino' - Faz um clone do fork com o repositÛrio local.
--git remote add upstream 'endereÁo remoto' - Adiciona o repositÛrio Principal(upstream) ao repositÛrio local(na m·quina).
--git pull upstream master -  Atualiza do repositÛrio Principal(upstream) para o repositorio local, na branch master.(antes, fazer o git remote anterior)
- Obs: ApÛs fazer alteraÁıes no repositÛrio local, usa-se o "git add ." e "git commit -m 'mensagem" normalmente.
--git push origin master - Faz um push do repositÛrio local para o repositorio cÛpia/remoto(fork), do qual se tem direito de leitura/escrita.
+-git clone 'endere√ßo https colado do reposit√≥rio fork no github' 'nome-da-pasta-local-destino' - Faz um clone do fork com o reposit√≥rio local.
+-git remote add upstream 'endere√ßo remoto' - Adiciona o reposit√≥rio Principal(upstream) ao reposit√≥rio local(na m√°quina).
+-git pull upstream master -  Atualiza do reposit√≥rio Principal(upstream) para o repositorio local, na branch master.(antes, fazer o git remote anterior)
+ Obs: Ap√≥s fazer altera√ß√µes no reposit√≥rio local, usa-se o "git add ." e "git commit -m 'mensagem" normalmente.
+-git push origin master - Faz um push do reposit√≥rio local para o repositorio c√≥pia/remoto(fork), do qual se tem direito de leitura/escrita.
 -git remote -v - Quantos repositorios remotos fazem parte do projeto(No upstream e no fork).
 -git push -d origin 'nome-da-branch' - deleta a branch remota no fork.
 
- Pull = tr·s = do upstream para o local
+ Pull = tr√°s = do upstream para o local
  Push = empurra = do local para o fork remoto
  
- Revisando o fluxo de colaboraÁ„o com 'fork workflow':
- -fork (clona um repositorio publico(upstream) com um repositÛrio remoto seu(fork))
+ Revisando o fluxo de colabora√ß√£o com 'fork workflow':
+ -fork (clona um repositorio publico(upstream) com um reposit√≥rio remoto seu(fork))
  -git clone (clona o fork com o repositorio local)  
-  Obs: ApÛs fazer alguma alteraÁ„o no projeto, antes de fazer 'git add' e 'git commit', cria a nova branch e faz na nova.  
+  Obs: Ap√≥s fazer alguma altera√ß√£o no projeto, antes de fazer 'git add' e 'git commit', cria a nova branch e faz na nova.  
   Deixa a branch master apenas como sincronizada  com o repositorio upstream   original.
  -git checkout
  -b (cria a nova branch local)                                                             
  -git add . (local)
  -git commit -m (local)
- -git push (atualiza do repositÛrio local para o remoto(fork))
- -pull request (o upstream remoto recebe a branch do fork remoto com atualizaÁıes)
-  Se as alteraÁıes forem integradas ao upstream:
+ -git push (atualiza do reposit√≥rio local para o remoto(fork))
+ -pull request (o upstream remoto recebe a branch do fork remoto com atualiza√ß√µes)
+  Se as altera√ß√µes forem integradas ao upstream:
  -git pull upstream (atualiza novamente do upstream para o repositorio local)
  -git push (atualiza novamente do repositorio local para o remoto fork).
 
- Pull Request: Enviar alteraÁıes para serem incorporadas ‡ um projeto
-               Discussıes sobre o cÛdigo
-               Integrar cÛdigo revisado ao projeto.
+ Pull Request: Enviar altera√ß√µes para serem incorporadas √† um projeto
+               Discuss√µes sobre o c√≥digo
+               Integrar c√≥digo revisado ao projeto.
  
  pull(updates): do upstream para o repositorio local (tras)
  push(updates): do repositorio local para o fork remoto. (empurra)
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
  Rebase x Merge:
--Os dois servem para integrar alteraÁıes de uma branch em outra.
--Merge È um comando n„o destrutivo. Ele n„o altera(n„o destrÛi) a linha do tempo das branchs.
- N„o destrÛi as branchs individuais, as ramificaÁıes continuam existindo.
+-Os dois servem para integrar altera√ß√µes de uma branch em outra.
+-Merge √© um comando n√£o destrutivo. Ele n√£o altera(n√£o destr√≥i) a linha do tempo das branchs.
+ N√£o destr√≥i as branchs individuais, as ramifica√ß√µes continuam existindo.
  Os estados dos commits continual os mesmos.
--O comando rebase permite manter um histÛrico(project history) e as ramificaÁıes mais limpos,
--Nunca fazer 'rebase' quando as branchs j· estiverem compartilhadas no github
- ou as branchs estejam p˙blicas em um repositÛrio do github.
+-O comando rebase permite manter um hist√≥rico(project history) e as ramifica√ß√µes mais limpos,
+-Nunca fazer 'rebase' quando as branchs j√° estiverem compartilhadas no github
+ ou as branchs estejam p√∫blicas em um reposit√≥rio do github.
 -Rebase sempre faz um merge tipo 'fast-forward', sem o commit de merge.
--git rebase master - O 'rebase', ao contr·rio do 'merge', È feito dentro da 'nova-branch'.
- O merge È feito dentro da master.
--git merge nova-branch - Em seguida faz-se o 'merge' normalmente, daÌ este ser· do tipo 
+-git rebase master - O 'rebase', ao contr√°rio do 'merge', √© feito dentro da 'nova-branch'.
+ O merge √© feito dentro da master.
+-git merge nova-branch - Em seguida faz-se o 'merge' normalmente, da√≠ este ser√° do tipo 
  'fast-forward', como se nunca tivesse existido a 'nova-branch'.Todos os commits
  se juntam e ficam lineares, como se tivessem todos acontecido na branch master.
 
  Um resumo dos dois:
- No caso de conflitos: Merge: Resolve manualmente e gera um commit para finalizar a resoluÁ„o do conflito.
-                       Rebase: ApÛs resolver manualmente o conflito: 
+ No caso de conflitos: Merge: Resolve manualmente e gera um commit para finalizar a resolu√ß√£o do conflito.
+                       Rebase: Ap√≥s resolver manualmente o conflito: 
                        git add .    
-                       git rebase --continue(continua o rebase apÛs o conflito) 
+                       git rebase --continue(continua o rebase ap√≥s o conflito) 
                        git checkout master
-                       git merge nova-branch(agora ser· tipo 'fast-forward')
-                       Opcional: git log --graph (Est· tudo linear, como se tudo tivesse acontecido sÛ na branch master)
+                       git merge nova-branch(agora ser√° tipo 'fast-forward')
+                       Opcional: git log --graph (Est√° tudo linear, como se tudo tivesse acontecido s√≥ na branch master)
               
-                       git rebase --abort - Para o rebase, e considera sÛ as alteraÁıes da branch master original.
+                       git rebase --abort - Para o rebase, e considera s√≥ as altera√ß√µes da branch master original.
                        git rebase --skip -  Cancela o processo de rebase.                                             
  
  Fazer um merge simples: git checkout master
@@ -187,50 +187,50 @@ comandos do bash:
                 git rebase master
                 git checkout master
                 git merge nova-branch 
-                Este processo remove todos os commits de merge e deixa o histÛrico bem mais limpo.   --
+                Este processo remove todos os commits de merge e deixa o hist√≥rico bem mais limpo.   --
 
- Rebase iterativo:(SÛ nas branchs locais, que n„o foram compartilhadas ainda)
+ Rebase iterativo:(S√≥ nas branchs locais, que n√£o foram compartilhadas ainda)
  Permite mover, editar, juntar commits, enfim, trabalhar no project-history. 
 -git rebase -i 'hash do commit parent(pai) do commit que se deseja alterar algo'
  Vai abrir o editor de textos configurado inicialmente no Visual Studio Code, 
- para cada vÍz que ele ver alguma alteraÁ„o, para fazer as alteraÁıes desejadas,
- atÈ terminar o rebase, ou seja, n„o haver mais alteraÁıes a fazer.  
--Depois: git log --oneline --graph, para verificar a(s) alteraÁ„o(ıes) feitas.
--AS opÁıes 's,squash: junta 2 commits e permite colocar uma nova mensagem para os dois'
-           'f,fixup: junta 2 commits e permanece a mensagem do 1∫ commit.'
+ para cada v√™z que ele ver alguma altera√ß√£o, para fazer as altera√ß√µes desejadas,
+ at√© terminar o rebase, ou seja, n√£o haver mais altera√ß√µes a fazer.  
+-Depois: git log --oneline --graph, para verificar a(s) altera√ß√£o(√µes) feitas.
+-AS op√ß√µes 's,squash: junta 2 commits e permite colocar uma nova mensagem para os dois'
+           'f,fixup: junta 2 commits e permanece a mensagem do 1¬∫ commit.'
 
--git status - AlteraÁıes e commits pendentes no projeto. 
--git checkout 'nome-do-arquivo' - desfaz alteraÁıes feitas no arquivo,
- mas que ainda n„o haviam sido commitadas.
+-git status - Altera√ß√µes e commits pendentes no projeto. 
+-git checkout 'nome-do-arquivo' - desfaz altera√ß√µes feitas no arquivo,
+ mas que ainda n√£o haviam sido commitadas.
 ---------------------------------------------------------------------------------------------------------------------------
--git stash - guarda em um local, o trabalho que j· est· na stage(git add .),
- mas ainda n„o est· terminado para ser commitado. Quando È preciso interromper 
- para fazer outra alteraÁ„o e dar outro commit. Depois retorna o trabalho
+-git stash - guarda em um local, o trabalho que j√° est√° na stage(git add .),
+ mas ainda n√£o est√° terminado para ser commitado. Quando √© preciso interromper 
+ para fazer outra altera√ß√£o e dar outro commit. Depois retorna o trabalho
  anterior da 'stash' e continua. 
--git stash apply - Tras de volta da ·rea stash para o processo normal,
+-git stash apply - Tras de volta da √°rea stash para o processo normal,
  para continuar normalmente o projeto que havia sido interrompido.
  Depois fazer normal 'git add .' e 'git commit -m 'mensagem'.
 -git stash save "mensagem" - Para lembrar o momento do stash
--git stash show - AlteraÁıes que tem haver com o ultimo stash.
+-git stash show - Altera√ß√µes que tem haver com o ultimo stash.
 -git stash show --patch - Com mais detalhes, o que foi feito no ultimo stash.
--git stash pop - Tbem tras de volta da stash, e j· remove o mesmo da pilha.
--git stash --keep-index - Coloca na 'stash' o que ainda n„o foi para a 'staged'(git add .), 
- que est· modificado. O que foi 'staged'(git add .), com este comando, n„o vai pra stash.
+-git stash pop - Tbem tras de volta da stash, e j√° remove o mesmo da pilha.
+-git stash --keep-index - Coloca na 'stash' o que ainda n√£o foi para a 'staged'(git add .), 
+ que est√° modificado. O que foi 'staged'(git add .), com este comando, n√£o vai pra stash.
 -Usar o comando 'git status' para verificar. 
--git stash list - Mostra todos os trabalhos salvos na pilha de 'stash', n„o terminados.
+-git stash list - Mostra todos os trabalhos salvos na pilha de 'stash', n√£o terminados.
 -git stash drop stash@{5} - Remove esta stash da pilha. Usar o comando 'git stash list' para ver.
 -git stash drop - Apaga sempre o do topo.
--git stash list --stat - Mostra todas as alteraÁıes em todos os stash's que est„o na pilha. 
--Obs: Arquivos novos que nunca foram rastreados pelo git, n„o conseguem ir para a pilha de stash.
--git stash -u - ForÁa arquivos nunca rastreados pelo git, a irem para a pilha de stash.
+-git stash list --stat - Mostra todas as altera√ß√µes em todos os stash's que est√£o na pilha. 
+-Obs: Arquivos novos que nunca foram rastreados pelo git, n√£o conseguem ir para a pilha de stash.
+-git stash -u - For√ßa arquivos nunca rastreados pelo git, a irem para a pilha de stash.
 ---------------------------------------------------------------------------------------------------------------------------
--git add 'nome do arquivo' - Coloca sÛmente este na staged.
+-git add 'nome do arquivo' - Coloca s√≥mente este na staged.
 
--Se excluir a pastinha '.git', zera todo o repositÛrio.
- … removido tudo que o git armazenou de controle do projeto.
+-Se excluir a pastinha '.git', zera todo o reposit√≥rio.
+ √â removido tudo que o git armazenou de controle do projeto.
 ---------------------------------------------------------------------------------------------------------------------------
 31.10.2020:
-Na primeira vÍz(Repositorio novo)
+Na primeira v√™z(Repositorio novo)
 git init
 git config --global user.name luizmarcello
 git config --global user.email luizmarcello.vmo@hotmail.com
@@ -241,14 +241,14 @@ git remote add origin https://github.com/LuizMarcello/ssssssssss.git
 git push -u origin master
 
 31.10.2020:
-Depois de uma alteraÁ„o:
+Depois de uma altera√ß√£o:
 git add .
 git commit -m "first commit"
 git push origin master
 
 31.10.2020
 Depois, no outro projeto local que vai usar o mesmo repositorio:
-Na primeira vÍz(Repositorio novo)
+Na primeira v√™z(Repositorio novo)
 git init
 git config --global user.name luizmarcello
 git config --global user.email luizmarcello.vmo@hotmail.com
@@ -261,7 +261,7 @@ php artisan key:generate
 php artisan serve
 
 31.10.2020:
-Depois de uma alteraÁ„o:
+Depois de uma altera√ß√£o:
 git add .
 git commit -m "first commit"
 git push origin master
@@ -270,6 +270,11 @@ Obs: 02 Branchs separadas:
 Um projeto local vai ficar:
 git branch -M master
 git push -u origin master
+
+Obs: Atualizar o repositorio local com as informa√ß√µes que
+     foram alteradas no repositorio git remoto:
+     git pull origin master ou
+     git pull origin main
 
 O outro projeto local vai ficar:
 git branch -M main
