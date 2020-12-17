@@ -106,4 +106,8 @@ Atualizado:
 composer require laravel/ui
 php artisan ui:auth
 
+Para não ser interpretado como uma marcação do blade,
+colocar uma arroba na frente:
+@{{ cliente }}
+
 
