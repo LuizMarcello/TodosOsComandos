@@ -101,6 +101,9 @@ Roda apenas a seed especificada na class:
 php artisan db:seed --class=UsuarioSeeder
 
 Ativar o sistema de login do laravel:
-php artisan make:auth
+php artisan make:auth (deprecated)
+Atualizado:
+composer require laravel/ui
+php artisan ui:auth
 
 
