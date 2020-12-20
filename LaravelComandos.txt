@@ -34,9 +34,12 @@ Começando com "@" são funções do blade, dentro do php
 Blade é um sistema de templates do laravel, para facilitar.
 
 Criando um novo model:
--m já faz a migration(uma tabela nova no banco de dados):
-(Essa tabela será no plural, no caso, "Contatos")
+php artisan make:model Contato
+Ou já faz a migration também:
+php artisan make:model Contato --migration
+ou:
 php artisan make:model Contato -m
+(Cria juntos o Model e a Migratiom)
 
 Migration: Versionamento do banco de dados.
            Modela o banco de dados usando o PHP.
