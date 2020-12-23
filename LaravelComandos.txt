@@ -113,4 +113,9 @@ Para não ser interpretado como uma marcação do blade,
 colocar uma arroba na frente:
 @{{ cliente }}
 
+Para usar "Controllers" no laravel 8.xx:
+Descomentar a linha 29:
+**protected $namespace = 'App\\Http\\Controllers';**
+no arquivo 'app\Providers\RouteServiceProvider.php'.
+
 
