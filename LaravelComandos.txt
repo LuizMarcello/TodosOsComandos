@@ -123,4 +123,7 @@ php artisan make:controller ClientController --resource
 No controller já cria as actions:
 index, create, store, show, edit, update, destroy
 
+Listar todas as rotas criadas no sistema:
+php artisan route:list
+
 
