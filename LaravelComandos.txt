@@ -118,4 +118,9 @@ Descomentar a linha 29:
 **protected $namespace = 'App\\Http\\Controllers';**
 no arquivo 'app\Providers\RouteServiceProvider.php'.
 
+Criar um "resource controller" no laravel:
+php artisan make:controller ClientController --resource
+No controller já cria as actions:
+index, create, store, show, edit, update, destroy
+
 
