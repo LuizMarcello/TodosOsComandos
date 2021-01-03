@@ -140,4 +140,12 @@ index, create, store, show, edit, update, destroy
 Listar todas as rotas criadas no sistema:
 php artisan route:list
 
+Para fazer link simbólico no laravel(Igual no linux):
+php artisan storage:link
+Faz um link simbólico da pasta "public" normal, com a
+pasta "public" do storage.Quando faz um upload de arquivo,
+normalmente vai para a pasta "public" do storage. Com
+este link, agora se tem acesso normal aos arquivos que subiram.
+
+
 
