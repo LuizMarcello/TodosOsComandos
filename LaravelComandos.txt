@@ -52,6 +52,20 @@ php artisan make:migration add_votes_to_produtos_table --table=produtos
 Rodar todas as migrations(tabelas) pendentes:
 php artisan migrate
 
+Exemplo de aumentar mais uma coluna na tabela 'clients' que já existe:
+php artisan make:migration alter_clients_table
+Depois edita a migration criada:
+Método Up:
+Schema::table('clients', function (Blueprint $table) {
+            $table->string('photo', 200);
+        });
+Método Down:
+Schema::table('clients', function (Blueprint $table) {
+            $table->dropColumn('photo');
+        });
+e rodas as migrations:
+php artisan migrate
+
 Reseta/rollback/apaga todas as tabelas:
 php artisan migrate:reset
 
