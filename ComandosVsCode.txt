@@ -8,36 +8,36 @@ Layout: Barra de atividades
 
 ctrl+shift+P = Abre a paleta de comandos (acesso total ao vsc)
 ctrl+P = Em tela cheia, aparece um explorer/barra, para abrir arquivos.
-             Se usar ctrl+enter abrir· em um editor separado.
-Obs: A diferenÁa entre as duas acima È apenas o '>'.
-Pesquisa no <ctrl+P> em arquivos: '@' - Mostra os conte˙dos do arquivo para pesquisar.
-                                                           '@: Divide em categorias: Ex: @:div - faz um filtro sÛ para as div¥s.
+             Se usar ctrl+enter abrir√° em um editor separado.
+Obs: A diferen√ßa entre as duas acima √© apenas o '>'.
+Pesquisa no <ctrl+P> em arquivos: '@' - Mostra os conte√∫dos do arquivo para pesquisar.
+                                                           '@: Divide em categorias: Ex: @:div - faz um filtro s√≥ para as div¬¥s.
 no ctrl+P, a '?' pergunta o que vc quer fazer. 
 ctrl+shift+P =  Mostra todos os comandos
 ctrl+shift+E = Abre o explorador de arquivos na barra de atividades
 ctrl+ , = Settings(Json)
-ctrl+shift+X = Extensıes
+ctrl+shift+X = Extens√µes
 ctrl+ ' ou ctrl+J = Console/terminal git
 ctrl+O = Abre arquivo
 ctrl+K ctrl+O = Abre pasta
 ctrl+R = Abre recente
-ctrl+W = fecha as janelas de ediÁ„o uma a uma.
+ctrl+W = fecha as janelas de edi√ß√£o uma a uma.
 ctrl+enter = abre arquivo em janelas separadas 
 ctrl+B = fecha a barra lateral
-ctrl+shift+M =  rros da barra de status
+ctrl+shift+M = √ärros da barra de status
 F11 = Tela cheia
 ctrl+K Z = Tela cheia modo zen (cheia total).
-ctrl +1 ou +2 ou +3 ou +4 etc... alterna entre as v·rias telas de ediÁıes abertas.
+ctrl +1 ou +2 ou +3 ou +4 etc... alterna entre as v√°rias telas de edi√ß√µes abertas.
 ctrl+= Aumenta fonte
 ctrl+- Diminui fonte
 
 Multiplos cursores:
-Ctrl+Shift+L - Seleciona todas as ocorrÍncias de uma vÍz, do que est· selecionado.
-Ctrl+Alt+D - Vai levando os cursores para as novas ocorrÍncias do que est· selecionado.
-                   Se quizer pular uma ocorrÍncia destas acima, usa Ctrl+K.
-Ctrl+F2 - Seleciona todas as ocorrÍncias da palavra selecionada.
+Ctrl+Shift+L - Seleciona todas as ocorr√™ncias de uma v√™z, do que est√° selecionado.
+Ctrl+Alt+D - Vai levando os cursores para as novas ocorr√™ncias do que est√° selecionado.
+                   Se quizer pular uma ocorr√™ncia destas acima, usa Ctrl+K.
+Ctrl+F2 - Seleciona todas as ocorr√™ncias da palavra selecionada.
 Ctrl+Shift e seta pra esquerda/direita, para selecionar.
-Ctrl+Click - Coloca os cursores no comeÁa das linhas desejadas.
+Ctrl+Click - Coloca os cursores no come√ßa das linhas desejadas.
 Ctrl+L - Seleciona a corrente linha.
 Ctrl+C e Ctrl+V - Funcionam normal.
 end - vai pro final das linhas selecionadas.
@@ -47,25 +47,25 @@ ctrl+shift+P = Abre a paleta de comandos
 user e
 Configure user snippets
 
-go to definition (F12 ou bot„o direiro) - Leva vocÍ atÈ a definiÁ„o/declaraÁ„o da funÁ„o/mÈtodo/atributo/vari·vel.
-peek definition (Alt+F12 ou bot„o direito) - Abre uma janela por cima com a mesma definiÁ„o/declaraÁ„o, mas
-                      vocÍ continua no mesmo local que estava.
+go to definition (F12 ou bot√£o direiro) - Leva voc√™ at√© a defini√ß√£o/declara√ß√£o da fun√ß√£o/m√©todo/atributo/vari√°vel.
+peek definition (Alt+F12 ou bot√£o direito) - Abre uma janela por cima com a mesma defini√ß√£o/declara√ß√£o, mas
+                      voc√™ continua no mesmo local que estava.
 
 Copiar a linha inteira:
 Ctrl+d ou
 Alt+Shift+seta pra baixo/seta pra cima.
 
-Mover um texto de lugar, no cÛdigo:
+Mover um texto de lugar, no c√≥digo:
 Seleciona todo o texto desejado, aperta Alt e leva para o outro lugar, ou com o
 mouse ou, depois de selecionado, segura o Alt e leva o texto com seta pra cima ou pra 
 baixo, para o lugar desejado.
 
 Emmet:
-Para iniciar em um novo arquivo html: 'exclamaÁ„o(!)' ou 'html:5'.
+Para iniciar em um novo arquivo html: 'exclama√ß√£o(!)' ou 'html:5'.
 Sinal de '>': A tag da direita fica dentro da tag da esquerda.(Ex: div>ul>li)
-Sinal de '+': AS tags ficar„o dentro do mesmo nivel hier·rquico.(Ex: div>p+h2)
+Sinal de '+': AS tags ficar√£o dentro do mesmo nivel hier√°rquico.(Ex: div>p+h2)
 
-Identar cÛdigo: Alt+Shift+F
+Identar c√≥digo: Alt+Shift+F
 
 Desligar/ligar os minimaps:
 Ctrl+, - editor.minimap.enabled
@@ -75,16 +75,16 @@ Color theme - Tema de cores
 Material icons - iconezinhos na barra lateral
 vscode -  iconezinhos na barra lateral
 lan - altera a linguagem
-sett - configuraÁıes
+sett - configura√ß√µes
 
-O fira code mexe nas "ligaÁıes" dos simbolos lÛgicos (ex: ==> ===  != vira outro)
+O fira code mexe nas "liga√ß√µes" dos simbolos l√≥gicos (ex: ==> ===  != vira outro)
 Baixado do git hub.
 
 Para abrir com linha de comando:
 code - abre o vsc
-code . - abre vsc no workspace/pasta no qual est· localizado
-code pasta/nome-do-arquivo -r - abre com este arquivo na ˙ltima inst‚ncia
-code pasta/nome-do-arquivo -n - abre com este arquivo em uma nova inst‚ncia
+code . - abre vsc no workspace/pasta no qual est√° localizado
+code pasta/nome-do-arquivo -r - abre com este arquivo na √∫ltima inst√¢ncia
+code pasta/nome-do-arquivo -n - abre com este arquivo em uma nova inst√¢ncia
 code -g pasta/subpasta/nome-do-arquivo:10:8 (linha e coluna) - Abre o arquivo nesta linha e coluna. 
 
 
@@ -102,3 +102,10 @@ Preview on Web Server - vscode-preview-server:
  -Resume the web server (ctrl+shift+r): Resume the web server.
   This feature can be used only from command palette.
  -show UI Page (ctrl+shift+u): Show UI Page. You can change options at UI page.
+ 
+ Excluir espa√ßos em branco:
+ Ctrl + H
+ Use regular expression
+ ^(\s)*$\n - usar essa
+ Substituir o espa√ßo em branco escolhido ou ent√£o todos.
+ 
