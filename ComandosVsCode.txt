@@ -109,3 +109,12 @@ Preview on Web Server - vscode-preview-server:
  ^(\s)*$\n - usar essa
  Substituir o espaço em branco escolhido ou então todos.
  
+ desativar o Modo de visualização(não precisa mais "keep open"):
+ "workbench.editor.enablePreview": false 
+ "workbench.editor.enablePreviewFromQuickOpen"opção para desativá-lo apenas no menu de abertura rápida.
+atalho Ctrl + Shift + P) para abrir seu arquivo de configurações
+" Preferences: Open User Settings"!
+"workbench.editor.enablePreview"propriedade e defina seu valor como false.
+
+
+ 
