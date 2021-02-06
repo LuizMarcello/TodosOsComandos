@@ -147,5 +147,28 @@ pasta "public" do storage.Quando faz um upload de arquivo,
 normalmente vai para a pasta "public" do storage. Com
 este link, agora se tem acesso normal aos arquivos que subiram.
 
+Regras de validação:
+#mensagens customizadas
+	  $mensagens = array(
+			'required' =>  "O campo :attribute é obrigatório",
+			'email' =>  "Digite um e-mail válido",
+			'url' =>  "Digite uma url válida",
+			'alpha_num' =>  "O usuário deve conter somente letras e números",
+			'username.min'  => "O usuário deve conter no mínimo três dígitos",
+			'password.min'  => "A senha deve conter no mínimo seis dígitos",
+			'same'  => "O valor de confirmação deve ser o mesmo da senha"
+		);
+		#criando regra de validação
+		$rules = array(
+			'nome'          => 'required',
+			'username'      	=> 'required|alpha_num|min:3',
+			'email'         => 'required|email',
+			'site'		    => 'required|url',
+			'password'			=> 'required|min:6',
+			'password-repeat'	=> 'required|same:password'
+		);
+
+		$validator = Validator::make(Input::all(), $rules, $mensagens);
+
 
 
