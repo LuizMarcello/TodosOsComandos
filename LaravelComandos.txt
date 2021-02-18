@@ -23,8 +23,25 @@ php artisan help 'nome-do-comando'
 Gerar uma nova chave de criptografia para esta aplicação
 php artisan key:generate
 
+Criando um novo model:
+php artisan make:model Contato
+Ou já faz a migration também:
+php artisan make:model Contato --migration
+ou:
+php artisan make:model Contato -m
+(Cria juntos o Model e a Migratiom)
+
 Criar um novo controler:
 php artisan make:controller ContatoController
+
+Validação de formulário com FormRequest:
+php artisan make:request CLientRequest
+É criada uma pasta chamda "Requests" em App/Http
+Dentro da pasta "Requests" é criada a classe CLientRequest.php,
+que herda da classe FormRequest.
+Depois tem que alterar classe "Request" injetada no parâmetro do
+método "salvar" ou "editar" no Controller, para a classe "ClientRequest".
+As regras são inseridas no método "rules()" dessa classe criada.(TreinaWeb)
 
 Nas views(xxx.blade.php):
 {{ $variaveis }} Usar variáveis php dentro do html
@@ -33,13 +50,7 @@ Começando com "@" são funções do blade, dentro do php
 
 Blade é um sistema de templates do laravel, para facilitar.
 
-Criando um novo model:
-php artisan make:model Contato
-Ou já faz a migration também:
-php artisan make:model Contato --migration
-ou:
-php artisan make:model Contato -m
-(Cria juntos o Model e a Migratiom)
+
 
 Migration: Versionamento do banco de dados.
            Modela o banco de dados usando o PHP.
