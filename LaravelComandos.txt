@@ -180,6 +180,18 @@ Regras de validação:
 		);
 
 		$validator = Validator::make(Input::all(), $rules, $mensagens);
+		
+		php artisan down - Colocar a aplicação em mode de manutenção
+		php artisan up - Tirar do modo de manutenção
+		php artisan env - apresenta o ambiente de desenvolvimento que está sendo utilizado.
+		php artisan optimize - realiza o cast no Framework para que o Laravel tenha sua melhor performance.
+		php artisan help - lista todas as ajudas para o Framework
+		php artisan tinker - Permite a interação com a aplicação, exemplo a inserção de dados nas tabelas do banco de dados.
+		php artisan route:cache : cria um arquivo de rota cache de registro rápido
+		php artisan route:clear : remove o arquivo de rota do cache
+		php artisan route:list : apresenta todas as rotas registradas na aplicação
+		comando Artisan config:cache - Para armazenar em cache todos os seus arquivos de configuração em um único arquivo.
+		
 
 
 
