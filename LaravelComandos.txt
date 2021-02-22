@@ -50,8 +50,6 @@ Começando com "@" são funções do blade, dentro do php
 
 Blade é um sistema de templates do laravel, para facilitar.
 
-
-
 Migration: Versionamento do banco de dados.
            Modela o banco de dados usando o PHP.
 Criando uma migration e uma nova tabela chamada "produtos":
