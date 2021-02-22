@@ -34,6 +34,15 @@ php artisan make:model Contato -m
 Criar um novo controler:
 php artisan make:controller ContatoController
 
+Crianmdo uma nova migration(tabela) no laravel:
+php artisan make:migration create_products_table
+OU:
+Para criar o Model e também a migration(tabela), como acima:)
+php artisan make:model Product -m
+NOTA: Existe uma convenção para o nome dos arquivos de migration, os
+nomes compostos devem ser separados por “_”, devem começar com create
+e terminar com table (Exemplo: create_password_resets_table)
+
 Validação de formulário com FormRequest:
 php artisan make:request CLientRequest
 É criada uma pasta chamda "Requests" em App/Http
