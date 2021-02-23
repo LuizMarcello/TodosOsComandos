@@ -290,3 +290,5 @@ Obs: Atualizar o repositorio local com as informações que
 O outro projeto local vai ficar:
 git branch -M main
 git push -u origin main
+
+https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch
