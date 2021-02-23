@@ -291,4 +291,10 @@ O outro projeto local vai ficar:
 git branch -M main
 git push -u origin main
 
+Alterar para a branch main:
+git checkout main
+
+Alterar para a branch master:
+git checkout master
+
 https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch
