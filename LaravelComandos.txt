@@ -199,7 +199,7 @@ Regras de validação:
 		php artisan route:cache : cria um arquivo de rota cache de registro rápido
 		php artisan route:clear : remove o arquivo de rota do cache
 		php artisan route:list : apresenta todas as rotas registradas na aplicação
-		comando Artisan config:cache - Para armazenar em cache todos os seus arquivos de configuração em um único arquivo.
+		php artisan config:cache - Para armazenar em cache todos os seus arquivos de configuração em um único arquivo.
 		
 
 
