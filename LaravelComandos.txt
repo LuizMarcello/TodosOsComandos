@@ -35,6 +35,10 @@ php artisan make:model Contato -m
 
 Criar um novo controler:
 php artisan make:controller ContatoController
+ou:
+php artisan make:controller ContatoController --resource
+Já cria o controller com os ações(métodos) para criar, atualizar, 
+listar, mostrar e deletar os itens. 
 
 Crianmdo uma nova migration(tabela) no laravel:
 php artisan make:migration create_products_table
