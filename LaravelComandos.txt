@@ -90,6 +90,13 @@ Schema::table('clients', function (Blueprint $table) {
 e rodas as migrations:
 php artisan migrate
 
+Ex: php artisan migra
+    Mostra todos os comandos do migrate
+
+Desfaz o ultimo migrate para o banco de dados,
+nesse caso, vai apagar a tabela no bd.
+php artisan migrate:rollback
+
 Reseta/rollback/apaga todas as tabelas:
 php artisan migrate:reset
 
