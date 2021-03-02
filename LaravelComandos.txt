@@ -247,6 +247,10 @@ class AppServiceProvider extends ServiceProvider
         Paginator::useBootstrap();   /*Acrescentada esta linha*/
     }
 }
+
+As configurações para as mascaras, são feitas no arquivo:
+resources/js/bootstrap.js
+Antes baixar o plugin desejado para a pasta resources/adminLTE/plugins
 		
 		
 
