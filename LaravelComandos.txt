@@ -258,6 +258,10 @@ sempre voltado a faciliar o front-end, tipo javascrip, jQuery.
 
 O comando "composer dump-autoload" é para recarregar o autoload do arquivo 
 composer.json, quando configuramos ele.	
+
+PHP DocBlocker - Extensão do vscode para automatizar comentários.
+
+PHP namespace Resolver - Extensão vscode para automatizar importação de classes.
 		
 
 
