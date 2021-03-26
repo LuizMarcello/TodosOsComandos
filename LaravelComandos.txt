@@ -262,6 +262,9 @@ composer.json, quando configuramos ele.
 PHP DocBlocker - Extensão do vscode para automatizar comentários.
 
 PHP namespace Resolver - Extensão vscode para automatizar importação de classes.
+
+php artisan route:cache - Para atualizar as rotas com o arquivo web.php
+(php artisan route:list)
 		
 
 
