@@ -272,6 +272,18 @@ Em produção não vai instalar.
 composer require deployer/deployer --dev
 
 .\vendor\bin\dep init - Para iniciar o arquivo de configuração do deploy
+
+Caso precisar criar um novo projeto local, para jogar no github:
+-Criar projeto novo no github
+-Na pasta local do projeto:
+ -git init - Para criar o repositorio git dentro da pasta raíz do projeto.
+ -git add . - Para adicionar todos os arquivos do projeto dentro do repositório git.
+ -git commit -m "criar o primeiro commit"
+ -git branch -M main - Criando um branch chamado "main"
+ -git remote add origin https://link copiado do novo projeto remoto no git hub - enviar o projeto para o novo repositorio remoto
+ -git push -u origin main - Por fim, anviar este commit para o repositório remoto
+ 
+ 
 		
 
 
