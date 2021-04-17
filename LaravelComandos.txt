@@ -265,6 +265,13 @@ PHP namespace Resolver - Extensão vscode para automatizar importação de class
 
 php artisan route:cache - Para atualizar as rotas com o arquivo web.php
 (php artisan route:list)
+
+Deployer:
+Instalar o deployer em modo desenvolvimento somente, para cada projeto(Dentro da pasta do projeto):
+Em produção não vai instalar.
+composer require deployer/deployer --dev
+
+.\vendor\bin\dep init - Para iniciar o arquivo de configuração do deploy
 		
 
 
