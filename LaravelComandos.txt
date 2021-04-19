@@ -1,3 +1,8 @@
+Estou usadno no projeto da bentley:
+php 7.4.15
+Laravel 8.28.1
+Xampp: Apache + MariaDB + PHP + Perl
+
 Novo projeto:
 Cria uma pasta do projeto(com o nome do projeto)
 composer create-project --prefer-dist laravel/laravel nome-do-projeto
