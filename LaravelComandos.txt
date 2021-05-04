@@ -1,4 +1,4 @@
-Estou usadno no projeto da bentley:
+Estou usando no projeto da bentley:
 php 7.4.15
 Laravel 8.28.1
 Xampp: Apache + MariaDB + PHP + Perl
