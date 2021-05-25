@@ -222,6 +222,7 @@ Senha do app V380:
 Wi-FiCasaDaFrente
  senhadificil123
  
- homehost:
+ www.homehost.com.br
  bentleyw
+ domínio: bentleywalker.net.br
  Lev9JsLcTJ70971
