@@ -230,3 +230,4 @@ Wi-FiCasaDaFrente
  DNS Slave: ns30.servidorwebsite.net
  IP do servidor: 185.169.97.50
  Hostname: h50.servidorhh.com
+ Porta SSH: 64413
