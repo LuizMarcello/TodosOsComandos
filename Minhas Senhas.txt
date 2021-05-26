@@ -223,6 +223,10 @@ Wi-FiCasaDaFrente
  senhadificil123
  
  www.homehost.com.br
- bentleyw
+ Usuário ftp e ssh: bentleyw
  domínio: bentleywalker.net.br
- Lev9JsLcTJ70971
+ senha: Lev9JsLcTJ70971
+ DNS Master: ns29.servidorwebsite.net
+ DNS Slave: ns30.servidorwebsite.net
+ IP do servidor: 185.169.97.50
+ Hostname: h50.servidorhh.com
