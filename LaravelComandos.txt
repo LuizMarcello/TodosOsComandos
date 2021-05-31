@@ -298,7 +298,8 @@ Caso precisar criar um novo projeto local, para jogar no github:
  Hostname: h50.servidorhh.com
  Porta SSH: 64413
  
- O usuário “bentleyw_user” foi adicionado ao banco de dados “bentleyw_laravelControle”.
+ O usuário “bentleyw_user” foi adicionado ao banco de dados “bentleyw_laravelControle”
+ com a senha P@ssw0rddificil
 		
 
 
