@@ -300,6 +300,9 @@ Caso precisar criar um novo projeto local, para jogar no github:
  
  O usuário “bentleyw_user” foi adicionado ao banco de dados “bentleyw_laravelControle”
  com a senha P@ssw0rddificil
+ 
+ Comando que finalmente deu certo para instalar o "composer" no homehost:
+ /usr/local/bin/ea-php73 -c /home/bentleyw/controlebentleyweb/php.ini -d allow_url_fopen=On installer
 		
 
 
