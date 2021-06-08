@@ -30,6 +30,23 @@ php artisan help 'nome-do-comando'
 Gerar uma nova chave de criptografia para esta aplicação
 php artisan key:generate
 
+Criando um outro projeto local que vai usar o mesmo repositorio:
+Na primeira vêz(Repositorio novo)
+git init
+git config --global user.name luizmarcello
+git config --global user.email luizmarcello.vmo@hotmail.com
+git clone https://github.com/LuizMarcello/maisumnovoprojeto.git nome-da-pasta-local-que-vai-ser-o
+ou
+git clone --branch main https://github.com/LuizMarcello/maisumnovoprojeto.git nome-da-pasta-local-que-vai-ser-o
+ou
+git clone https://github.com/laravel/laravel.git nome-da-pasta-local-que-será-o-projeto
+(Um repositorio do projeto completo(virgem) para ser clonado, para criar um projeto laravel manualmente)
+Depois, na pasta do projeto:
+composer install
+copy .env.example .env
+php artisan key:generate
+php artisan serve
+
 Criando um novo model:
 php artisan make:model Contato
 Ou já faz a migration também:
