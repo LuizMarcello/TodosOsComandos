@@ -329,6 +329,9 @@ Caso precisar criar um novo projeto local, para jogar no github:
  find * -type d -exec chmod 755 {} \;  (pastas) -dentro da pasta do projeto
  find * -type f -exec chmod 644 {} \;  (arquivos) -dentro da pasta do projeto
  chmod 755 controlebentleyweb  -fora da pasta do projeto
+ 
+ Criando o middleware "CheckTasks":
+ php artisan make:middleware CkeckTasks
 		
 
 
