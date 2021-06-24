@@ -111,6 +111,26 @@ Método Down:
 Schema::table('clients', function (Blueprint $table) {
             $table->dropColumn('photo');
         });
+	
+Exemplo para nova coluna da tabela referenciar chaves estrangeiras:
+Método Up:
+Schema::table('clientes', function (Blueprint $table) {
+           $table->integer('user_id')->unsigned();
+           $table->foreign('user_id')->references('id')->on('users');
+       });
+
+Método Down:
+Schema::table('clientes', function (Blueprint $table) {
+           $table->dropColumn('user_id');
+       });
+       
+Fica assim: 
+Criando uma nova coluna na tabela "clientes" chamada "user_id"(padrão que o
+láravel usa para chaves estrangeiras: o nome da tabela underline o nome da chave
+primária desta tabela) 
+(Unsigned:Não aceita valores negativos)
+E esta nova coluna referenciará o "id" primário da tabela "users".
+
 e rodas as migrations:
 php artisan migrate
 
