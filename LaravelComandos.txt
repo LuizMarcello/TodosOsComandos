@@ -388,8 +388,8 @@ Caso precisar criar um novo projeto local, para jogar no github:
        boot(), são colocados os "gates" de permissões/autorização:
        Exemplo no projeto:
         /* update-client: Nome do gate/
-        /* $user: Variável com a instância do usuário */
-        /* $client: Receberá uma instância do model "cliente" */
+        /* $user: Variável que receberá do láravel uma instância do usuário */
+        /* $client: Variável que receberá do láravel uma instância do model "cliente" */
         /* Se for igual, retorna true e o usuário tem permissão */
         Gate::define('update-client', function($user, $client) {
             return $user->id == $client->user_id;
