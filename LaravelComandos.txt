@@ -394,6 +394,12 @@ Caso precisar criar um novo projeto local, para jogar no github:
         Gate::define('update-client', function($user, $client) {
             return $user->id == $client->user_id;
         });
+	
+	No controller do referido resource, no método desejado (update,edit,destroy,etc)
+	/* Para permissão/autorização do "update()" deste controller. */
+        /* Parâmetros: Nome do gate e instância do model */
+        $this->authorize('update-client', $cliente);
+	Daí, além dos botões que não aparecem, também não consegue permissão nem pela url.
        
        
 		
