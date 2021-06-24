@@ -334,6 +334,27 @@ Caso precisar criar um novo projeto local, para jogar no github:
  
  Criando o middleware "CheckTasks":
  php artisan make:middleware CkeckTasks
+ 
+ Controller para controles/verificações/mensagens sobre usuários logados:
+ HomeController.php (No método index() ):
+ // Retornando uma instância do model do usuário logado:
+    /* dd(Auth::user()->name); */
+    /* dd(Auth::id()); */
+
+    /* Verificação se tem usuário logado */
+    /* if(Auth::check()) {
+        echo 'tem logado';
+    } else {
+        echo 'Não tem logado';
+    } */
+
+        Auth::user();
+
+      /* Método para login via código, pelo id do usuário: */
+        /* Auth::loginUsingId(1); */
+
+      /* Método para logout via código: */
+       /*  Auth::logout(); */
 		
 
 
