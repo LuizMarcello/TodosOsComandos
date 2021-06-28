@@ -57,6 +57,10 @@ ou:
 php artisan make:model Contato -m
 (Cria juntos o Model e a Migratiom)
 
+Pacotes:
+Ex: Criando o modelo "loja", mas dentro do pacote "Core".
+php artisan make:model Core/loja
+
 Criar um novo controler:
 php artisan make:controller ContatoController
 ou:
