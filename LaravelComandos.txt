@@ -63,6 +63,8 @@ php artisan make:model Core/loja
 
 Criar um novo controler:
 php artisan make:controller ContatoController
+Ex: Criando o controller "LojaController", mas dentro do pacote "Core".
+php artisan make:controller Core/LojaController
 ou:
 php artisan make:controller ContatoController --resource
 Já cria o controller com os ações(métodos) para criar, atualizar, 
