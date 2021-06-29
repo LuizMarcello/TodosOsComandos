@@ -406,6 +406,12 @@ Caso precisar criar um novo projeto local, para jogar no github:
             return $user->id == $client->user_id;
         });
 	
+	 {{-- can(): Diretiva do blade que verifica se tem permissão ou não --}}
+         {{-- Parâmetros: Nome do gate e instância do cliente, ao qual terá ou não permissão. --}}
+              @can('update-client',  $cliente)
+	      @endcan
+	 Neste caso, usada na view index.blade.php para esconder os botões de editar e deletar
+	
 	No controller do referido resource, no método desejado (update,edit,destroy,etc)
 	/* Para permissão/autorização do "update()" deste controller. */
         /* Parâmetros: Nome do gate e instância do model */
