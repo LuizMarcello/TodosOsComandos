@@ -373,6 +373,7 @@ Caso precisar criar um novo projeto local, para jogar no github:
  Criando o middleware "CheckTasks":
  php artisan make:middleware CkeckTasks
  
+ Autenticação e autorização:
  Controller para controles/verificações/mensagens sobre usuários logados:
  HomeController.php (No método index() ):
  // Retornando uma instância do model do usuário logado:
