@@ -417,6 +417,23 @@ Caso precisar criar um novo projeto local, para jogar no github:
         /* Parâmetros: Nome do gate e instância do model */
         $this->authorize('update-client', $cliente);
 	Daí, além dos botões que não aparecem, também não consegue permissão nem pela url.
+	
+	JWT(Jason Web Token):
+	Instalando via composer. Baixa todas as dependências:
+	-composer require tymon/jwt-auth
+	Adicionando o service provider no config/app.php:
+	(Acrescenta esta linha no providers):
+	-Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+	Comando para publicar o package config file:
+	-php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+	Será criado o config/jwt.php, para configurações.
+	Comando para gerar uma chave no .env:
+	(JWT_SECRET=xxxxxxxxxx)
+	-php artisan jwt:secret
+	Criar o model "User" (melhor num pacote separado):
+	-php artisan make:model Access/User
+	E configurar o mesmo como o curso udemy: Criando REST api com laravel 8.
+	
        
        
 		
