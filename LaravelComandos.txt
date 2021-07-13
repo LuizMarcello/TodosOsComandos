@@ -32,6 +32,8 @@ php artisan help 'nome-do-comando'
 Gerar uma nova chave de criptografia para esta aplicação
 php artisan key:generate
 
+shift alt seta-pra-cima = duplica um texto selecionado
+
 Criando um outro projeto local que vai usar o mesmo repositorio:
 Na primeira vêz(Repositorio novo)
 git init
@@ -96,6 +98,8 @@ Nas views(xxx.blade.php):
 {{ $variaveis }} Usar variáveis php dentro do html
 Começando com "@" são funções do blade, dentro do php
 @end + "nome-da-função" - para fechar
+
+shift alt seta-pra-cima = duplica um texto selecionado
 
 Blade é um sistema de templates do laravel, para facilitar.
 
@@ -433,6 +437,8 @@ Caso precisar criar um novo projeto local, para jogar no github:
 	Criar o model "User" (melhor num pacote separado):
 	-php artisan make:model Access/User
 	E configurar o mesmo como o curso udemy: Criando REST api com laravel 8.
+	
+	shift alt seta-pra-cima = duplica um texto selecionado
 	
        
        
