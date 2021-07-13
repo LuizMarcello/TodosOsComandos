@@ -31,6 +31,8 @@ ctrl +1 ou +2 ou +3 ou +4 etc... alterna entre as várias telas de edições abe
 ctrl+= Aumenta fonte
 ctrl+- Diminui fonte
 
+shift alt seta-pra-cima = duplica um texto selecionado
+
 Multiplos cursores:
 Ctrl+Shift+L - Seleciona todas as ocorrências de uma vêz, do que está selecionado.
 Ctrl+Alt+D - Vai levando os cursores para as novas ocorrências do que está selecionado.
@@ -80,6 +82,8 @@ sett - configurações
 O fira code mexe nas "ligações" dos simbolos lógicos (ex: ==> ===  != vira outro)
 Baixado do git hub.
 
+shift alt seta-pra-cima = duplica um texto selecionado
+
 Para abrir com linha de comando:
 code - abre o vsc
 code . - abre vsc no workspace/pasta no qual está localizado
@@ -116,5 +120,6 @@ atalho Ctrl + Shift + P) para abrir seu arquivo de configurações
 " Preferences: Open User Settings"!
 "workbench.editor.enablePreview"propriedade e defina seu valor como false.
 
+shift alt seta-pra-cima = duplica um texto selecionado
 
  
