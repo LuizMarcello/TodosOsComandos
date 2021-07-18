@@ -122,4 +122,6 @@ atalho Ctrl + Shift + P) para abrir seu arquivo de configurações
 
 shift alt seta-pra-cima = duplica um texto selecionado
 
+ctrl + f2 = Seleciona a palavra primeiro, depois ctrl + f2 para alterar todas as ocorrências de uma vêz.
+
  
