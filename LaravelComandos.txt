@@ -65,6 +65,8 @@ php artisan make:model Core/loja
 
 Já criando o modelo(model), o controller("resource"=já com métodos padrões) e as migrations simultâneamente:
 php artisan make:model --migration --controller --resource Marca
+ou:
+php artisan make:model -mcr Marca
 
 Criar um novo controler:
 php artisan make:controller ContatoController
