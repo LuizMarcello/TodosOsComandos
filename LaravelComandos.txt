@@ -8,6 +8,8 @@ Xampp: Apache + MariaDB + PHP + Perl
 Novo projeto:
 Cria uma pasta do projeto(com o nome do projeto)
 composer create-project --prefer-dist laravel/laravel nome-do-projeto
+ou colocando a versão:
+composer create-project --prefer-dist laravel/laravel=8.28.1 nome-do-projeto
 
 o "Composer" instala pacotes php e o "npm" instala pacores javascript.
 
