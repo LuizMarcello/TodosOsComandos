@@ -1,10 +1,3 @@
-(((Gás trocado dia 20.06.2021/Domingo da festa)))
-
-Estou usando no projeto da bentley:
-php 7.4.15
-Laravel 8.28.1
-Xampp: Apache + MariaDB + PHP + Perl
-
 Novo projeto:
 Cria uma pasta do projeto(com o nome do projeto)
 composer create-project --prefer-dist laravel/laravel nome-do-projeto
@@ -364,20 +357,7 @@ Caso precisar criar um novo projeto local, para jogar no github:
  -git branch -M main - Criando um branch chamado "main"
  -git remote add origin https://link copiado do novo projeto remoto no git hub - enviar o projeto para o novo repositorio remoto
  -git push -u origin main - Por fim, anviar este commit para o repositório remoto
- 
- www.homehost.com.br
- Usuário ftp e ssh: bentleyw
- domínio: bentleywalker.net.br
- senha: Lev9JsLcTJ70971
- DNS Master: ns29.servidorwebsite.net
- DNS Slave: ns30.servidorwebsite.net
- IP do servidor: 185.169.97.50
- Hostname: h50.servidorhh.com
- Porta SSH: 64413
- 
- O usuário “bentleyw_user” foi adicionado ao banco de dados “bentleyw_laravelControle”
- com a senha P@ssw0rddificil
- 
+  
  Comando que finalmente deu certo para instalar o "composer" no homehost:
  /usr/local/bin/ea-php73 -c /home/bentleyw/controlebentleyweb/php.ini -d allow_url_fopen=On installer
  
