@@ -1,0 +1,49 @@
+par trançado - lan
+par coaxial - rg6
+
+Nova aplicação no gerencianet - juruena conectado
+
+Entrar no gerencianet: financeiro@bentleybrasil.com.br
+Idealsat6
+
+(((Gás trocado dia 20.06.2021/Domingo da festa)))
+
+Estou usando no projeto da bentley:
+php 7.4.15
+Laravel 8.28.1
+Xampp: Apache + MariaDB + PHP + Perl
+
+ www.homehost.com.br
+
+ Usuário ftp e ssh: bentleyw
+
+ domínio: bentleywalker.net.br
+
+ senha: Lev9JsLcTJ70971
+
+ DNS Master: ns29.servidorwebsite.net
+
+ DNS Slave: ns30.servidorwebsite.net
+
+ IP do servidor: 185.169.97.50
+
+ Hostname: h50.servidorhh.com
+
+ Porta SSH: 64413
+
+ O usuário “bentleyw_user” foi adicionado ao banco de dados
+ “bentleyw_laravelControle”
+ com a senha P@ssw0rddificil
+
+https://produto.mercadolivre.com.br/MLB-1832730702-relogio-masculino-sanda-739-
+militar-tatico-sportes-original-_JM?attributes=STRAP_COLOR%3AVmVyZGU%3D&quantity=1
+
+Grencianet/youtube:
+https://www.youtube.com/watch?v=iGEiM2gyLE8 - introdução-JÁ
+https://www.youtube.com/watch?v=Cz1UXIJeNr4 - Aula 01-JÁ
+https://www.youtube.com/watch?v=w1qLMclt_fM - Aula 02-JÁ
+https://www.youtube.com/watch?v=AlmYdVjagM0 - Aula 03-JÁ
+https://www.youtube.com/watch?v=jfix5Qyzh9A - Aula 04
+https://www.youtube.com/watch?v=azV_3kced6M - Aula 05
+
+https://www.youtube.com/results?search_query=CRIANDO+UM+GERADOR+DE+BOLETOS+E+PIX+PHP+8+PARTE
