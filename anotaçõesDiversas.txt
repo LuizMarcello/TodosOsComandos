@@ -1,12 +1,12 @@
-par tranÁado - lan
+par tran√ßado - lan
 par coaxial - rg6
 
-Nova aplicaÁ„o no gerencianet - juruena conectado
+Nova aplica√ß√£o no gerencianet - juruena conectado
 
 Entrar no gerencianet: financeiro@bentleybrasil.com.br
 Idealsat6
 
-(((G·s trocado dia 20.06.2021/Domingo da festa)))
+(((G√°s trocado dia 25.08.2021/Domingo da festa)))
 
 Estou usando no projeto da bentley:
 php 7.4.15
@@ -15,9 +15,9 @@ Xampp: Apache + MariaDB + PHP + Perl
 
  www.homehost.com.br
 
- Usu·rio ftp e ssh: bentleyw
+ Usu√°rio ftp e ssh: bentleyw
 
- domÌnio: bentleywalker.net.br
+ dom√≠nio: bentleywalker.net.br
 
  senha: Lev9JsLcTJ70971
 
@@ -31,18 +31,18 @@ Xampp: Apache + MariaDB + PHP + Perl
 
  Porta SSH: 64413
 
- O usu·rio ìbentleyw_userî foi adicionado ao banco de dados
- ìbentleyw_laravelControleî
+ O usu√°rio ‚Äúbentleyw_user‚Äù foi adicionado ao banco de dados
+ ‚Äúbentleyw_laravelControle‚Äù
  com a senha P@ssw0rddificil
 
 https://produto.mercadolivre.com.br/MLB-1832730702-relogio-masculino-sanda-739-
 militar-tatico-sportes-original-_JM?attributes=STRAP_COLOR%3AVmVyZGU%3D&quantity=1
 
 Grencianet/youtube:
-https://www.youtube.com/watch?v=iGEiM2gyLE8 - introduÁ„o-J¡
-https://www.youtube.com/watch?v=Cz1UXIJeNr4 - Aula 01-J¡
-https://www.youtube.com/watch?v=w1qLMclt_fM - Aula 02-J¡
-https://www.youtube.com/watch?v=AlmYdVjagM0 - Aula 03-J¡
+https://www.youtube.com/watch?v=iGEiM2gyLE8 - introdu√ß√£o-J√Å
+https://www.youtube.com/watch?v=Cz1UXIJeNr4 - Aula 01-J√Å
+https://www.youtube.com/watch?v=w1qLMclt_fM - Aula 02-J√Å
+https://www.youtube.com/watch?v=AlmYdVjagM0 - Aula 03-J√Å
 https://www.youtube.com/watch?v=jfix5Qyzh9A - Aula 04
 https://www.youtube.com/watch?v=azV_3kced6M - Aula 05
 
