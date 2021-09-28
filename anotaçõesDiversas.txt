@@ -49,3 +49,6 @@ https://www.youtube.com/watch?v=azV_3kced6M - Aula 05
 https://www.youtube.com/results?search_query=CRIANDO+UM+GERADOR+DE+BOLETOS+E+PIX+PHP+8+PARTE
 
 https://origamid.com/projetos/flexbox-guia-completo/
+
+Criar recuperação de senha PHP e PDO:
+https://www.youtube.com/watch?v=Nt7WHIRNVyI
