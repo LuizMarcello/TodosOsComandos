@@ -51,4 +51,4 @@ https://www.youtube.com/results?search_query=CRIANDO+UM+GERADOR+DE+BOLETOS+E+PIX
 https://origamid.com/projetos/flexbox-guia-completo/
 
 Criar recuperação de senha PHP e PDO:
-https://www.youtube.com/watch?v=Nt7WHIRNVyI
+https://www.youtube.com/watch?v=Nt7WHIRNVyI ((33:26))
