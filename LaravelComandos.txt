@@ -432,6 +432,21 @@ Caso precisar criar um novo projeto local, para jogar no github:
 	
 	shift alt seta-pra-cima = duplica um texto selecionado
 	
+	Vue.JS no projeto laravel:
+	Iniciar o projeto laravel normalmente:
+	composer create-project....
+	
+	Instalar o pacote UI:
+	composer require laravel/ui:^3.2.1
+	
+	Gerar o esqueleto do projeto com Vue.JS e autenticação web nativa (scaffold/esqueleto)
+	php artisan ui vue --auth
+	
+	baixar as dependências de front-end
+	npm install
+	
+	Produzindo o bundle de front-end
+	npm run dev
        
        
 		
