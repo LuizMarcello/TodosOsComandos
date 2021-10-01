@@ -447,6 +447,8 @@ Caso precisar criar um novo projeto local, para jogar no github:
 	
 	Produzindo o bundle de front-end
 	npm run dev
+	Obs: Se der êrro neste ultimo, executar este comando:
+	npm install vue-loader@^15.9.5 --save-dev --legacy-peer-deps
        
        
 		
