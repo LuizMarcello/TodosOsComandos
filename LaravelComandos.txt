@@ -440,7 +440,15 @@ Caso precisar criar um novo projeto local, para jogar no github:
 	composer require laravel/ui:^3.2.1
 	
 	Gerar o esqueleto do projeto com Vue.JS e autenticação web nativa (scaffold/esqueleto)
-	php artisan ui vue --auth
+	// Generate basic scaffolding...
+        php artisan ui bootstrap  (bootstrap)
+        php artisan ui vue  (vue.js)
+        php artisan ui react  (react)
+	
+	// Generate login / registration scaffolding...
+        php artisan ui bootstrap --auth
+        php artisan ui vue --auth
+        php artisan ui react --auth
 	
 	baixar as dependências de front-end
 	npm install
