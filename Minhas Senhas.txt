@@ -267,4 +267,9 @@ Wi-FiCasaDaFrente
  Senha de 4 dígitos: 3327
  outra senha: 123deoliveira4
  
+ Email fake para testes
+ mailtrap.io
+ luizmarcello.vmo@hotmail.com
+ 123deoliveira4
+ 
  
