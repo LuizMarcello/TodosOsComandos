@@ -298,3 +298,9 @@ Alterar para a branch master:
 git checkout master
 
 https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch
+
+1)Voltar o código fonte para um commit especifico
+git reset --hard "nome da tag ou Hash do Commit !" (Esse deu certo)
+
+2)  Realiza o push da alteração !
+git push origin HEAD --force (Esse não testei)
