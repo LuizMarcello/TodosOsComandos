@@ -56,3 +56,8 @@ https://www.youtube.com/watch?v=Nt7WHIRNVyI ((33:26))
 https://www.mundodaprogramacao.com.br/blog/back-end/redefinicao-de-senha-parte-1
 https://www.mundodaprogramacao.com.br/blog/back-end/redefinicao-de-senha-parte-2
 https://drive.google.com/drive/folders/1BE0wrvIICSO_yhMKrsiR25hC8jzYsBKF
+
+PHP PDO 9/10 (PROJETO - EDITAR DADOS - PARTE 1):
+https://www.youtube.com/watch?v=LxanIRy-Vtc&t=689s
+PHP PDO 10/10 (PROJETO - EDITAR DADOS - PARTE 2):
+https://www.youtube.com/watch?v=1YIAGV5YvzA&t=758s
