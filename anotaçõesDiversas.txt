@@ -65,3 +65,6 @@ PHP PDO 9/10 (PROJETO - EDITAR DADOS - PARTE 1):
 https://www.youtube.com/watch?v=LxanIRy-Vtc&t=689s
 PHP PDO 10/10 (PROJETO - EDITAR DADOS - PARTE 2):
 https://www.youtube.com/watch?v=1YIAGV5YvzA&t=758s
+
+Girl Coding
+marnei cardoso - media queries
