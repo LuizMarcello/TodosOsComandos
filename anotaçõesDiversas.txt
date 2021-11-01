@@ -69,3 +69,21 @@ https://www.youtube.com/watch?v=1YIAGV5YvzA&t=758s
 Girl Coding
 marnei cardoso - media queries
 https://www.youtube.com/watch?v=H91DhKPjhPk&t=3020s  -  rocketseat
+
+Css: 
+Display block:
+div,section,p,h1,h2,ul,li,article:
+-Ocupa 100% da largura do elemento pai.
+-Ocupa sempre sua própria linha e é posicionado abaixo do alemento block anterior.
+-A altura é definida de acôrdo com o conteúdo interno.
+-É possível definir width e height.
+-Você pode definir valores de "margim" normalmente.
+
+Display inline:
+a,spam,b,i,em:
+-Ocupa a largura total do seu conteúdo apenas
+-Um elemento inline após outro elemento inline ocupam a mesma linha
+-Não é possível definir Width e Height
+-Não é possível definir valores de margin-top e margin-bottom
+-Ao aplicar o float, automaticamente eles assumem características de display block
+-Se aplicado dentro de um texto, irá seguir o fluxo do conteúdo
