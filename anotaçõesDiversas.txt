@@ -87,3 +87,6 @@ a,spam,b,i,em:
 -Não é possível definir valores de margin-top e margin-bottom
 -Ao aplicar o float, automaticamente eles assumem características de display block
 -Se aplicado dentro de um texto, irá seguir o fluxo do conteúdo
+
+/* Maçete para o "min-width": Sempre abaixo de 280px */
+  min-width: 260px;
