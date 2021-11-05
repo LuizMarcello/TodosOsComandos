@@ -283,6 +283,8 @@ Regras de validação:
 		php artisan route:list : apresenta todas as rotas registradas na aplicação
 		php artisan config:cache - Para armazenar em cache todos os seus arquivos de configuração em um único arquivo.
 		
+		php artisan view:clear - Limpando as views compiladas do cache
+		
 		Para funcionar a paginação do "bootstrap" no laravel, ao invés da paginação defult original, a partir da versão
 		8.x do laravel, a "Tailwind":
 		No arquivo App\Providers\AppServiceProvider.php:
