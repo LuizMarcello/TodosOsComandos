@@ -468,7 +468,16 @@ Caso precisar criar um novo projeto local, para jogar no github:
               -Método "Compact()", nativo do php, que tbém cria um array
                associativo, baseado em parâmetros.
               -"With()"
- 	
+
+Helper "asset()" do laravel:
+Modo relativo(normal) não é muito bom.
+Para incluir "assets" nas views, melhor usar o helper "assets()".
+Usará uma string com a referência da imagem
+Ele olhará sempre para a pasta "public" do laravel, mas é possível
+configurar este caminho.
+<img src="img/logo.png"> - modo relativo(normal)
+<img src="{{ asset('img/logo.png') }}"> - com o helper "asset()"
+                    
 
 
 
