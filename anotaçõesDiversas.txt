@@ -90,3 +90,9 @@ a,spam,b,i,em:
 
 /* Maçete para o "min-width": Sempre abaixo de 280px */
   min-width: 260px;
+  
+  
+  https://pt.stackoverflow.com/questions/102024/input-type-password-com-o-olho-de-mostrar-senha
+  
+  https://www.youtube.com/watch?v=LxanIRy-Vtc
+  PHP PDO 9/10 (PROJETO - EDITAR DADOS - PARTE 1)
