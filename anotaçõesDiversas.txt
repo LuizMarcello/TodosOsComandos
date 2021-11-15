@@ -98,16 +98,26 @@ a,spam,b,i,em:
   PHP PDO 9/10 (PROJETO - EDITAR DADOS - PARTE 1)
   
   Sobre CSS:
-  Sobre "Position":
+  Sobre o "Position":
   Static - Padrão para todos os elementos. Nem precisa declarar.
            Sinplesmente seguem o fluxo da pagina normalmente.
-  Fixed
-  Relative
-  Absolute
+           AS 4 propriedades abaixo não funcionam.
+           
+  Fixed - Faz o elemento ficar fixo na página, não depende do scroll,
+          porque ele fica posicionado em relação ao viewerport(Tamanho total do documento).
+          AS 4 propriedades abaixo funcionam.
+          
+  Sticky - É posicionado baseado na posição de rolagem do usuário.
+           Fixa em tela quando chegar na posição de rolagem dele.
   
-  4 propriedades:
-  bottom
-  top
-  left
-  right
-  Sticky
+  Relative - Está posicionado em relação a sua posição normal, ou seja,
+             as 4 propriedades botton, top, left e right vão fazer com que 
+             ele seja ajustado para fora da sua posição normal.Não afetará
+             nenhum outro elemento.
+  
+  Absolute -  É posicionado em relação ao elemento mais próximo que possua 
+    
+  As 4 propriedades:
+  bottom, top, left e right
+  
+  
