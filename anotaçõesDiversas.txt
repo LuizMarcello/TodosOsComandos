@@ -115,9 +115,12 @@ a,spam,b,i,em:
              ele seja ajustado para fora da sua posição normal.Não afetará
              nenhum outro elemento.
   
-  Absolute -  É posicionado em relação ao elemento mais próximo que possua 
+  Absolute -  É posicionado em relação ao elemento mais próximo dele que possua
+              um "posisition=Relative", numa hierarquia. Se não existir este dentro
+              da hierarquia, ele será absoluto em relação ao corpo da página total(o body).
+              Ele ficará "livre"(solto) em relação ao corpo da página
+              As 4 propriedades então serão em relaçao a este elemento com "position=Relative".
     
-  As 4 propriedades:
-  bottom, top, left e right
+  As 4 propriedades: bottom, top, left e right.
   
   
