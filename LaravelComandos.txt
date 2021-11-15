@@ -477,6 +477,11 @@ Ele olhará sempre para a pasta "public" do laravel, mas é possível
 configurar este caminho.
 <img src="img/logo.png"> - modo relativo(normal)
 <img src="{{ asset('img/logo.png') }}"> - com o helper "asset()"
+
+Para verificar se 
+"extension_loaded()": Método nativo do php que verifica se uma extensão está
+ carregada, no caso, a "pdo" para o mySql.
+php -r "var_dump(extension_loaded('pdo_mysql'))";
                     
 
 
