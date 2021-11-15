@@ -110,6 +110,10 @@ Blade é um sistema de templates do laravel, para facilitar.
 
 Migration: Versionamento do banco de dados.
            Modela o banco de dados usando o PHP.
+	   
+Criando somente uma migration nova:
+php artisan make:migration siteContatos
+
 Criando uma migration e uma nova tabela chamada "produtos":
 php artisan make:migration create_produtos_table --create=produtos
 
