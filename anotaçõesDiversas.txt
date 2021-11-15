@@ -96,3 +96,18 @@ a,spam,b,i,em:
   
   https://www.youtube.com/watch?v=LxanIRy-Vtc
   PHP PDO 9/10 (PROJETO - EDITAR DADOS - PARTE 1)
+  
+  Sobre CSS:
+  Sobre "Position":
+  Static - Padrão para todos os elementos. Nem precisa declarar.
+           Sinplesmente seguem o fluxo da pagina normalmente.
+  Fixed
+  Relative
+  Absolute
+  
+  4 propriedades:
+  bottom
+  top
+  left
+  right
+  Sticky
