@@ -165,6 +165,9 @@ E esta nova coluna referenciará o "id" primário da tabela "users".
 e rodas as migrations:
 php artisan migrate
 
+Obs: Comando "php artisan migrate" executa o método up() da migration
+     Comando "php artisan migrate:rollback" executa o método down() da migration.
+
 Ex: php artisan migra
     Mostra todos os comandos do migrate
 
