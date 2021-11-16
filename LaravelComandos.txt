@@ -167,6 +167,12 @@ php artisan migrate
 
 Obs: Comando "php artisan migrate" executa o método up() da migration, reverte as migrações.
      Comando "php artisan migrate:rollback" executa o método down() da migration, reverte as migrações.
+     
+        php artisan migrate
+        Da mais antiga para a amais atual
+
+        php artisan migrate:rollback
+        Da mais atual para a mais antiga
 
 Ex: php artisan migra
     Mostra todos os comandos do migrate
