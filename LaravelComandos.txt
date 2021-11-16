@@ -165,7 +165,7 @@ E esta nova coluna referenciará o "id" primário da tabela "users".
 e rodas as migrations:
 php artisan migrate
 
-Obs: Comando "php artisan migrate" executa o método up() da migration, reverte as migrações.
+Obs: Comando "php artisan migrate" executa o método up() da migration.
      Comando "php artisan migrate:rollback" executa o método down() da migration, reverte as migrações.
      
         php artisan migrate
