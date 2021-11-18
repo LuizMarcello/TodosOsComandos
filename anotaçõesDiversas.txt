@@ -123,4 +123,20 @@ a,spam,b,i,em:
     
   As 4 propriedades: bottom, top, left e right.
   
+  Fixando o rodapé em baixo:
+  #tudo {
+	 position: relative;
+ 	...
+	 }
+
+ #rodape {
+	position: absolute;
+	bottom: 0;
+	}
+ 
+ #conteudo {
+	padding-bottom: 30px;
+	}
+  
+  
   
