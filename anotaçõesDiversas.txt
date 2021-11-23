@@ -138,5 +138,6 @@ a,spam,b,i,em:
 	padding-bottom: 30px;
 	}
   
-  
+ Tem que alterar a senha do banco de dad0s:
+ -index.php, cadastrar.php, gerar-qrcode-dinamico.php, indexboleto.php, indexcomprar.php, indexpix.php logar.php, usuarioLogado.php
   
