@@ -298,6 +298,26 @@ Regras de validação:
 		
 		php artisan view:clear - Limpando as views compiladas do cache
 		
+		php artisan migrate:status
+		Mostra as migrations que já foram executadas.
+		
+		php artisan migrate:reset
+		Reverte todas as migrações do banco de dados.
+		Da migração mais atual para a a mais antiga.
+		Banco volta ao estado natural, antes de qualquer migration.
+		Executa o rollback de todas as migrations.
+		
+		php artisan migrate:refresh
+		Somente re-cria o banco de dados. Reverte todas as migrações, como o comando anterior,
+		e depois já executao o "migrate" novamente. Se haviam informações, serão zeradas.
+		Executa o rollback de todas as migrations e + o migrate para recriar os objetos no banco.
+		
+		php artisan migrate:fresh
+		Faz um "Drop" de todos os objetos do banco e + o migrate para recriar os objetos no banco,
+		baseado no método "up" das mesmas.
+		
+		
+		
 		Para funcionar a paginação do "bootstrap" no laravel, ao invés da paginação defult original, a partir da versão
 		8.x do laravel, a "Tailwind":
 		No arquivo App\Providers\AppServiceProvider.php:
