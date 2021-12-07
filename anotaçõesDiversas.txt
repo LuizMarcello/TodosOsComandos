@@ -139,5 +139,5 @@ a,spam,b,i,em:
 	}
   
  Tem que alterar a senha do banco de dad0s:
- -index.php, cadastrar.php, gerar-qrcode-dinamico.php, indexboleto.php, indexcomprar.php, indexpix.php logar.php, usuarioLogado.php
+ -index.php, cadastrar.php, gerar-qrcode-dinamico.php, indexboleto.php, indexcomprar.php, indexpix.php, logar.php, usuarioLogado.php
   
