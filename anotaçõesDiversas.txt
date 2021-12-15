@@ -144,3 +144,11 @@ a,spam,b,i,em:
   jQuery Masks:
   https://www.youtube.com/watch?v=U9504YniAFE
   https://www.youtube.com/watch?v=Z-Cn8VttCCA
+  
+  Esqueci a senha(recuperar senha) Thiago Sales:
+  RECUPERAR SENHA POR EMAIL COM PHP #1
+  https://www.youtube.com/watch?v=ZS3RzlAbMfE
+  RECUPERAR SENHA POR EMAIL #2
+  https://www.youtube.com/watch?v=LXkODt9OpW4
+  RECUPERAR SENHA POR EMAIL #3 - FINAL
+  https://www.youtube.com/watch?v=p-Rwu6c0WTc
