@@ -272,9 +272,14 @@ Wi-FiCasaDaFrente
  luizmarcello.vmo@hotmail.com
  123deoliveira4
  
- juno
+ juno/produção
  luizmarcello.vmo@hotmail.com
  123deoliveira4
+ 
  token de autorização: 200278
+ 
+ juno/sandbox
+ luizmarcello.vmo@hotmail.com
+ 123deoliveira4
  
  
