@@ -522,6 +522,22 @@ estrangeira tenha o mesmo tipo da chave primária, , no caso, "bigint unsigned.
  
  Executa somente a(s) migrations que estiverem neste diretório.
  php artisan migrate --path=/12345678
+ 
+ 
+ Exemplo de abordagens para estabelecer um relacionamento entre as tabelas motivo_contatos e site_contatos;
+ Jorge Sant Ana - Aula 9 - Módulo Trabalhando com formulários.
+ 
+ 1ª abordagem:
+-Criar fk(foreign key) na coluna motivo_contato apontando para id da tabela motivo_contatos
+
+ 2ª abordagem:
+-Alterar o nome da coluna para motivo_contato_id e aplicar a fk(foreign key) apontando para a coluna id da tabela motivo_contatos
+
+ 3ª abordagem: Mais etapas, para praticar.
+-(Criar a coluna motivo_contatos_id),
+ (migrar os dados de motivo_contato para motivo_contatos_id),
+ (aplicar a fk(foreign key) em motivo_contatos_id apontando para a coluna id da tabela motivo_contatos), e por fim, 
+ (remover a coluna motivo_contato).
                     
 
 
