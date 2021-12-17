@@ -519,6 +519,9 @@ php -r "var_dump(extension_loaded('pdo_mysql'))";
 É fundamental que a coluna da tabela que vai receber a chave
 estrangeira tenha o mesmo tipo da chave primária, , no caso, "bigint unsigned.
  (unsigned: não aceita valores negativos).
+ 
+ Executa somente a(s) migrations que estiverem neste diretório.
+ php artisan migrate --path=/12345678
                     
 
 
