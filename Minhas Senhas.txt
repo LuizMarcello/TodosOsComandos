@@ -57,7 +57,7 @@ P@ssw0rd
 
 Gmail:
 luizmarcelloti@gmail.com
-123deoliveira4dificil
+123DeOliveira_4
 
 Senac
 luizmarcello.vmo@hotmail.com
@@ -281,5 +281,10 @@ Wi-FiCasaDaFrente
  juno/sandbox
  luizmarcello.vmo@hotmail.com
  123deoliveira4
+ 
+ Jeitto empréstimos
+ luizmarcelloti@gmail.com
+ 482.744.029-87
+ 2002
  
  
