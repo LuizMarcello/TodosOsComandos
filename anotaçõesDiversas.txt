@@ -159,3 +159,5 @@ a,spam,b,i,em:
   https://packagist.org/packages/odesenvolvedor/juno-php-sdk
   
   https://www.youtube.com/watch?v=sTWAaibcwaQ
+  
+  https://bubble.io/plugin/juno-pagamentos-live-1581688679017x794265376661962800
