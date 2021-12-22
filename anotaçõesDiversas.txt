@@ -157,3 +157,5 @@ a,spam,b,i,em:
   https://www.youtube.com/watch?v=atNfrqitgIg
   https://www.99freelas.com.br/project/integrar-sistema-em-php-com-juno-pagamentos-atraves-de-api-270445
   https://packagist.org/packages/odesenvolvedor/juno-php-sdk
+  
+  https://www.youtube.com/watch?v=sTWAaibcwaQ
