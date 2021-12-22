@@ -152,3 +152,8 @@ a,spam,b,i,em:
   https://www.youtube.com/watch?v=LXkODt9OpW4
   RECUPERAR SENHA POR EMAIL #3 - FINAL
   https://www.youtube.com/watch?v=p-Rwu6c0WTc
+  
+  https://www.youtube.com/watch?v=ZHgHx_m5LxI
+  https://www.youtube.com/watch?v=atNfrqitgIg
+  https://www.99freelas.com.br/project/integrar-sistema-em-php-com-juno-pagamentos-atraves-de-api-270445
+  https://packagist.org/packages/odesenvolvedor/juno-php-sdk
