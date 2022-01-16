@@ -538,6 +538,12 @@ estrangeira tenha o mesmo tipo da chave primária, , no caso, "bigint unsigned.
  (migrar os dados de motivo_contato para motivo_contatos_id),
  (aplicar a fk(foreign key) em motivo_contatos_id apontando para a coluna id da tabela motivo_contatos), e por fim, 
  (remover a coluna motivo_contato).
+ 
+ Diferença: Aspas simples: tem que concatenar string com variável
+            Aspas duplas: não precisa concatenar, faz a interpolação de string com variável
+	    Exemplos:
+            echo 'Remover o registro de ID' . $id; 
+            echo "Remover o registro de ID $id";
                     
 
 
