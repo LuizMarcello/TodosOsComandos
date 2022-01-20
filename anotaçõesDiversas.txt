@@ -111,6 +111,7 @@ a,spam,b,i,em:
   indexcomprar.php
   indexpix.php
   logar.php
+  esqueciSenha\functions.php
   usuarioLogado.php
   
   jQuery Masks:
