@@ -8,23 +8,10 @@ php 7.4.15
 Laravel 8.28.1
 Xampp: Apache + MariaDB + PHP + Perl
 
-Grencianet/youtube:
-https://www.youtube.com/watch?v=iGEiM2gyLE8 - introdução-JÁ
-https://www.youtube.com/watch?v=Cz1UXIJeNr4 - Aula 01-JÁ
-https://www.youtube.com/watch?v=w1qLMclt_fM - Aula 02-JÁ
-https://www.youtube.com/watch?v=AlmYdVjagM0 - Aula 03-JÁ
-https://www.youtube.com/watch?v=jfix5Qyzh9A - Aula 04
-https://www.youtube.com/watch?v=azV_3kced6M - Aula 05
-
 https://www.youtube.com/results?search_query=CRIANDO+UM+GERADOR+DE+BOLETOS+E+PIX+PHP+8+PARTE
 
 https://origamid.com/projetos/flexbox-guia-completo/
 
-Criar recuperação de senha PHP e PDO:
-https://www.youtube.com/watch?v=Nt7WHIRNVyI ((33:26))
-
-https://www.mundodaprogramacao.com.br/blog/back-end/redefinicao-de-senha-parte-1
-https://www.mundodaprogramacao.com.br/blog/back-end/redefinicao-de-senha-parte-2
 https://drive.google.com/drive/folders/1BE0wrvIICSO_yhMKrsiR25hC8jzYsBKF
 
 PHP PDO 9/10 (PROJETO - EDITAR DADOS - PARTE 1):
@@ -58,10 +45,7 @@ a,spam,b,i,em:
   min-width: 260px;
     
   https://pt.stackoverflow.com/questions/102024/input-type-password-com-o-olho-de-mostrar-senha
-  
-  https://www.youtube.com/watch?v=LxanIRy-Vtc
-  PHP PDO 9/10 (PROJETO - EDITAR DADOS - PARTE 1)
-  
+      
   Sobre CSS:
   Sobre o "Position":
   Static - Padrão para todos os elementos. Nem precisa declarar.
@@ -124,8 +108,7 @@ a,spam,b,i,em:
   https://youtu.be/Yaz6Qp7D0mc
   Redefinição de senha em php-Parte2
   https://youtu.be/fRk207cQNXU
-  
-  
+    
   https://www.youtube.com/watch?v=ZHgHx_m5LxI
   https://www.youtube.com/watch?v=atNfrqitgIg
   https://www.99freelas.com.br/project/integrar-sistema-em-php-com-juno-pagamentos-atraves-de-api-270445
@@ -142,7 +125,7 @@ a,spam,b,i,em:
   https://www.youtube.com/watch?v=a9e075Ru3cY
   
   https://www.youtube.com/watch?v=uxyFDydIzHk
-  
+      
   PHP PDO 9/10 (PROJETO - EDITAR DADOS - PARTE 1)
   https://www.youtube.com/watch?v=LxanIRy-Vtc
   
