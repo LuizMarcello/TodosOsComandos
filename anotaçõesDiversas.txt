@@ -111,8 +111,9 @@ a,spam,b,i,em:
   indexcomprar.php
   indexpix.php
   logar.php
-  esqueciSenha\functions.php
   usuarioLogado.php
+  esquecisenha/envia-nova-senha.php
+  esquecisenha/set-nova-senha.php
   
   jQuery Masks:
   https://www.youtube.com/watch?v=U9504YniAFE
