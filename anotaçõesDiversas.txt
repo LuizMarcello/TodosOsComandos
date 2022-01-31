@@ -90,6 +90,7 @@ a,spam,b,i,em:
   indexcomprar.php
   indexpix.php
   logar.php
+  meuPerfilEditar.php
   usuarioLogado.php
   esquecisenha/envia-nova-senha.php
   esquecisenha/set-nova-senha.php
