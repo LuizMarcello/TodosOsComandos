@@ -127,4 +127,16 @@ a,spam,b,i,em:
 
   PHP PDO 10/10 (PROJETO - EDITAR DADOS - PARTE 2):
   https://www.youtube.com/watch?v=1YIAGV5YvzA&t=758s
+  
+  Data: 08.03.2022
+  Última Renegociação Valéria
+Veja abaixo todos os seus acordos
+Nº DO ACORDO
+221867013
+VENCIMENTO da primeira parcela
+10/05/2022
+STATUS
+Aguardando Pagamento
+PARCELA
+R$ 172,35
         
