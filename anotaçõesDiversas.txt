@@ -141,4 +141,6 @@ STATUS
 Aguardando Pagamento
 60 PARCELAs
 
+https://www.jlgregorio.com.br/2021/08/13/configurando-o-vue-3-no-laravel-8/
+
         
