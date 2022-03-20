@@ -6,6 +6,9 @@ composer create-project --prefer-dist laravel/laravel=8.28.1 nome-do-projeto
 
 o "Composer" instala pacotes php e o "npm" instala pacores javascript.
 
+Mudando a porta do artisan serve
+php artisan serve --port=9000
+
 rm -rf nomeDoDiretorio (apaga mesmo com dados)
 
 Start no servidor web interno do artisan e abre uma porta no localhost(porta 8000):
@@ -184,6 +187,9 @@ php artisan migrate:rollback
 Reseta/rollback/apaga todas as tabelas:
 php artisan migrate:reset
 
+Mudando a porta do artisan serve
+php artisan serve --port=9000
+
 Para acessar o banco de dados(eloquent):
 Orientação a objetos no prompt:
 php artisan tinker
@@ -261,6 +267,9 @@ Faz um link simbólico da pasta "public" normal, com a
 pasta "public" do storage.Quando faz um upload de arquivo,
 normalmente vai para a pasta "public" do storage. Com
 este link, agora se tem acesso normal aos arquivos que subiram.
+
+Mudando a porta do artisan serve
+php artisan serve --port=9000
 
 Regras de validação:
 #mensagens customizadas
@@ -449,6 +458,9 @@ Caso precisar criar um novo projeto local, para jogar no github:
         $this->authorize('update-client', $cliente);
 	Daí, além dos botões que não aparecem, também não consegue permissão nem pela url.
 	
+	Mudando a porta do artisan serve
+        php artisan serve --port=9000
+	
 	JWT(Jason Web Token):
 	Instalando via composer. Baixa todas as dependências:
 	-composer require tymon/jwt-auth
@@ -523,6 +535,8 @@ estrangeira tenha o mesmo tipo da chave primária, , no caso, "bigint unsigned.
  Executa somente a(s) migrations que estiverem neste diretório.
  php artisan migrate --path=/12345678
  
+ Mudando a porta do artisan serve
+ php artisan serve --port=9000
  
  Exemplo de abordagens para estabelecer um relacionamento entre as tabelas motivo_contatos e site_contatos;
  Jorge Sant Ana - Aula 9 - Módulo Trabalhando com formulários.
