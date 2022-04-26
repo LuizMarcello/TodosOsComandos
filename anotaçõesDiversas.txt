@@ -128,19 +128,30 @@ a,spam,b,i,em:
   PHP PDO 10/10 (PROJETO - EDITAR DADOS - PARTE 2):
   https://www.youtube.com/watch?v=1YIAGV5YvzA&t=758s
   
-  Data: 08.03.2022
-  Última Renegociação Valéria Santander
+  https://www.jlgregorio.com.br/2021/08/13/configurando-o-vue-3-no-laravel-8/
+  
+ 
+Última Renegociação Valéria Santander
+Data: 08.03.2022
 Veja abaixo todos os seus acordos
 Nº DO ACORDO
 221867013
 VENCIMENTO da primeira parcela
 10/05/2022
 R$ 172,35
-
 STATUS
 Aguardando Pagamento
 60 PARCELAs
 
-https://www.jlgregorio.com.br/2021/08/13/configurando-o-vue-3-no-laravel-8/
+Última negociação Luiz Itaú Credicard
+Cartão de crédito
+Data: 26.04.2022
+12 x 55,43
+1ª - 12/05/2022
+Todo dia 12 de cada mês.
+luizmarcello.vmo@hotmail.com
+
+
+
 
         
