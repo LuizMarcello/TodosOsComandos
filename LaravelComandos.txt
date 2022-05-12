@@ -6,6 +6,9 @@ composer create-project --prefer-dist laravel/laravel=8.28.1 nome-do-projeto
 
 o "Composer" instala pacotes php e o "npm" instala pacores javascript.
 
+Para atualizar o próprio composer:
+composer self-update
+
 Mudando a porta do artisan serve
 php artisan serve --port=9000
 
@@ -558,6 +561,9 @@ estrangeira tenha o mesmo tipo da chave primária, , no caso, "bigint unsigned.
 	    Exemplos:
             echo 'Remover o registro de ID' . $id; 
             echo "Remover o registro de ID $id";
+	 
+Para atualizar o próprio composer:
+composer self-update
                     
 
 
