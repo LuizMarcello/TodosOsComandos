@@ -8,6 +8,8 @@ o "Composer" instala pacotes php e o "npm" instala pacores javascript.
 
 Para atualizar o próprio composer:
 composer self-update
+Para verificar a versão:
+composer --version
 
 Mudando a porta do artisan serve
 php artisan serve --port=9000
@@ -564,6 +566,8 @@ estrangeira tenha o mesmo tipo da chave primária, , no caso, "bigint unsigned.
 	 
 Para atualizar o próprio composer:
 composer self-update
+Para verificar a versão:
+composer --version
                     
 
 
