@@ -568,6 +568,9 @@ Para atualizar o próprio composer:
 composer self-update
 Para verificar a versão:
 composer --version
+
+Para recompilar os packs novamente:
+composer dump-autoload
                     
 
 
