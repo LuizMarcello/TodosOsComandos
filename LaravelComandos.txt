@@ -484,6 +484,9 @@ Caso precisar criar um novo projeto local, para jogar no github:
 	
 	shift alt seta-pra-cima = duplica um texto selecionado
 	
+	Para recompilar os packs novamente:
+        composer dump-autoload
+	
 	Vue.JS no projeto laravel:
 	Iniciar o projeto laravel normalmente:
 	composer create-project....
@@ -542,6 +545,8 @@ estrangeira tenha o mesmo tipo da chave primária, , no caso, "bigint unsigned.
  
  Mudando a porta do artisan serve
  php artisan serve --port=9000
+ 
+ 
  
  Exemplo de abordagens para estabelecer um relacionamento entre as tabelas motivo_contatos e site_contatos;
  Jorge Sant Ana - Aula 9 - Módulo Trabalhando com formulários.
