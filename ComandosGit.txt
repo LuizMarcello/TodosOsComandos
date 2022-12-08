@@ -49,6 +49,8 @@
 -git push -d origin 'nome-da-branch' - deleta a branch remota no gitHub(no fork).
 -git branch -a: Quais branchs temos acesso no projeto. 
 ---------------------------------------------------------------------------------------------------------------------
+Obs: No VsCode, para não ficar muito lento, usar o comando: "touch .gitignome", e dentro do arquivo .gitignote
+     criado, incluir "node_modules". Antes, no source-control, constava uns 5K de arquivos, agora somente 5 files.
  Simplesmente começar um projeto/repositorio novo:
  (Acompanhando php7 curso udemy)
  Local:
@@ -67,6 +69,8 @@
  ou:
 -usar git push origin master
 ---------------------------------------------------------------------------------------------------------------------
+Obs: No VsCode, para não ficar muito lento, usar o comando: "touch .gitignome", e dentro do arquivo .gitignote
+     criado, incluir "node_modules". Antes, no source-control, constava uns 5K de arquivos, agora somente 5 files.
 Simplesmente começar um projeto/repositorio novo:
  (Acompanhando github curso udemy)
 *Criar pasta local
