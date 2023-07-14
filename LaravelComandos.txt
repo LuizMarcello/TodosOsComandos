@@ -4,6 +4,8 @@ composer create-project --prefer-dist laravel/laravel nome-do-projeto
 ou colocando a versão:
 composer create-project --prefer-dist laravel/laravel=8.28.1 nome-do-projeto
 
+php artisan migrate --path=/database/migrations/2023_07_14_155310_create_trias_table.php
+
 o "Composer" instala pacotes php e o "npm" instala pacores javascript.
 
 Para atualizar o próprio composer:
