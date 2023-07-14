@@ -185,12 +185,16 @@ Obs: Comando "php artisan migrate" executa o método up() da migration.
 Ex: php artisan migra
     Mostra todos os comandos do migrate
 
+    php artisan optimize:clear
+
 Desfaz o ultimo migrate para o banco de dados,
 nesse caso, vai apagar a tabela no bd.
 php artisan migrate:rollback
 
 Reseta/rollback/apaga todas as tabelas:
 php artisan migrate:reset
+
+php artisan optimize:clear
 
 Mudando a porta do artisan serve
 php artisan serve --port=9000
@@ -542,6 +546,8 @@ estrangeira tenha o mesmo tipo da chave primária, , no caso, "bigint unsigned.
  
  Executa somente a(s) migrations que estiverem neste diretório.
  php artisan migrate --path=/12345678
+
+php artisan optimize:clear
  
  Mudando a porta do artisan serve
  php artisan serve --port=9000
