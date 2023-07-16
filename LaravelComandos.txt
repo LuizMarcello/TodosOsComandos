@@ -584,6 +584,17 @@ composer --version
 
 Para recompilar os packs novamente:
 composer dump-autoload
+
+Otimizar o laravel:
+php artisan route:clear
+php artisan route:cache
+php artisan config:clear
+php artisan config:cache
+php artisan view:clear
+php artisan view:cache
+php artisan cache:clear
+(Usando fila de espera)
+php artisan queue:work
                     
 
 
