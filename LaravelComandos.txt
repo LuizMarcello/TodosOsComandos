@@ -594,6 +594,7 @@ php artisan view:clear
 php artisan view:cache
 php artisan cache:clear
 (Usando fila de espera)
+composer dumpautoload -o
 php artisan queue:work
                     
 
