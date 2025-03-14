@@ -69,6 +69,7 @@ Obs: No VsCode, para não ficar muito lento, usar o comando: "touch .gitignome",
  ou:
 -usar git push origin master
 ---------------------------------------------------------------------------------------------------------------------
+(14.03.25)
 Obs: No VsCode, para não ficar muito lento, usar o comando: "touch .gitignome", e dentro do arquivo .gitignote
      criado, incluir "node_modules". Antes, no source-control, constava uns 5K de arquivos, agora somente 5 files.
 Simplesmente começar um projeto/repositorio novo:
