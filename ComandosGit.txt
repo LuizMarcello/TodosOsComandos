@@ -82,7 +82,7 @@ Simplesmente começar um projeto/repositorio novo:
 -git commit -m "mensagem"
  *Criar repositorio no github
 -git remote add origin "endereço https colado do repositorio, no site"
--git remote
+-ssh-keygen -t rsa -C "luizmarcello.codes@gmail.com" (criar chaves ssh no linux)
 -git push -u origin master - Mandando a branch 'master' local para o repositorio remoto 'origin',
  A flag '-u' padroniza para os próximos push's, que para o origin, sempre vai ser da branch ''master.
  Vai ser sempre da 'master' para o 'origin'. Daí poderá ser simplesmente:
