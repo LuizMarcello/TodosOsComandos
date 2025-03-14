@@ -72,13 +72,13 @@ Obs: No VsCode, para não ficar muito lento, usar o comando: "touch .gitignome",
 Obs: No VsCode, para não ficar muito lento, usar o comando: "touch .gitignome", e dentro do arquivo .gitignote
      criado, incluir "node_modules". Antes, no source-control, constava uns 5K de arquivos, agora somente 5 files.
 Simplesmente começar um projeto/repositorio novo:
- (Acompanhando github curso udemy)
+ (Acompanhando github curso udemy) (14.03.25)
 *Criar pasta local
 -git init
--git config user.name 'nome'
--git config user.mail 'email'
+-git --global config user.name 'nome'
+-git --global config user.mail 'email'
  *Começar criando arquivos
--git add 'arquivo'
+-git add .
 -git commit -m "mensagem"
  *Criar repositorio no github
 -git remote add origin "endereço https colado do repositorio, no site"
